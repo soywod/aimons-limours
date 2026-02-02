@@ -1,0 +1,11 @@
+.chapter-1 .chapter-title {
+  color: #78a22f;
+}
+
+.chapter-1 .chapter-title strong {
+  -webkit-text-stroke: 2px #78a22f;
+}
+
+.chapter-1 .chapter-description {
+  color: #78a22f;
+}
