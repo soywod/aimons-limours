@@ -72,6 +72,9 @@ main p {
 
 #title {
   position: absolute;
+  height: 50vh;
+  left: -20%;
+  top: -10%;
 }
 
 .chapter {
