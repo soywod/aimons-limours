@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    "Poppins",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+main p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+#background {
+  position: relative;
+  height: 100vh;
+  background-image: url(./background.jpeg);
+  background-size: cover;
+}
+
+#title {
+  position: absolute;
+}
+
+.chapter {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas:
+    "background title"
+    "background description";
+  grid-gap: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+.chapter > div {
+  grid-area: background;
+  height: 300px;
+}
+
+.chapter > div > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chapter > h2 {
+  grid-area: title;
+  align-content: end;
+}
+
+.chapter > h2 > strong {
+  display: block;
+  color: white;
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+#chapter-1 > h2 {
+  color: #78a22f;
+}
+
+#chapter-1 > h2 > strong {
+  -webkit-text-stroke: 1px #78a22f;
+}
+
+#chapter-2 > h2 {
+  color: #e8872b;
+}
+
+#chapter-2 > h2 > strong {
+  -webkit-text-stroke: 1px #e8872b;
+}
+
+#chapter-3 > h2 {
+  color: #7bc4e8;
+}
+
+#chapter-3 > h2 > strong {
+  -webkit-text-stroke: 1px #7bc4e8;
+}
+
+.chapter > p {
+  grid-area: description;
+  align-content: start;
+}
