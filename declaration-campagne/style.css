@@ -92,11 +92,17 @@ main p {
 }
 
 footer {
-  margin-top: 2rem;
-  padding: 0.75rem 0;
+  font-size: 1rem;
+  padding: 0.5rem 0;
   display: flex;
   text-align: center;
   background: #eeeeee;
+}
+
+#address {
+  font-size: 0.9rem;
+  background: #333333;
+  color: white;
 }
 
 footer a {
