@@ -64,17 +64,41 @@ main p {
 }
 
 #background {
-  position: relative;
-  height: 100vh;
-  background-image: url(./background.jpeg);
-  background-size: cover;
+  width: 100%;
+  display: block;
 }
 
 #title {
-  position: absolute;
-  height: 50vh;
-  left: -20%;
-  top: -10%;
+  gap: 0.25rem;
+  display: flex;
+  justify-self: end;
+  background: #89be38;
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: white;
+  padding: 0.75rem 0 0.75rem 4rem;
+  width: 60vw;
+  border-radius: 2rem 0 0 2rem;
+}
+
+#quote {
+  font-family: "DM Serif Text", serif;
+  font-size: 12rem;
+  line-height: 10rem;
+  margin: 0 0 -5rem -1rem;
+  color: #f08012;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 0.75rem 0;
+  display: flex;
+  text-align: center;
+  background: #eeeeee;
+}
+
+footer a {
+  color: #f08012;
 }
 
 .chapter {
@@ -120,11 +144,11 @@ main p {
 }
 
 #chapter-2 > h2 {
-  color: #e8872b;
+  color: #f08012;
 }
 
 #chapter-2 > h2 > strong {
-  -webkit-text-stroke: 1px #e8872b;
+  -webkit-text-stroke: 1px #f08012;
 }
 
 #chapter-3 > h2 {

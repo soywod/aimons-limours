@@ -8,17 +8,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section id="background">
-      <img id="title" src="./title.png" />
-    </section>
+    <img
+      id="background"
+      src="./background-1200.jpeg"
+      srcset="
+        ./background-480.jpeg   480w,
+        ./background-768.jpeg   768w,
+        ./background-1200.jpeg 1200w,
+        ./background-1920.jpeg 1920w
+      "
+      sizes="100vw"
+      alt="Limours"
+    />
+
+    <h1 id="title">
+      Projet de la liste d’ouverture conduite par <strong>Armand DOUIN</strong>
+    </h1>
 
     <main class="container">
+      <div id="quote">❝</div>
+
       <p>
         <strong>Chères Limouriennes</strong>,<br />
         <strong>Chers Limouriens</strong>,
@@ -77,10 +92,22 @@
       <p>À très bientôt.</p>
     </main>
 
+    <br />
+
     <section class="container">
       <section id="chapter-1" class="chapter">
         <div>
-          <img src="./chapter-1.jpeg" />
+          <img
+            src="./chapter-1-1200.jpeg"
+            srcset="
+              ./chapter-1-480.jpeg   480w,
+              ./chapter-1-768.jpeg   768w,
+              ./chapter-1-1200.jpeg 1200w,
+              ./chapter-1-1920.jpeg 1920w
+            "
+            sizes="100vw"
+            alt="Quand ville et nature ne font qu'un"
+          />
         </div>
         <h2>
           <strong>Limours</strong>
@@ -95,7 +122,17 @@
 
       <section id="chapter-2" class="chapter">
         <div>
-          <img src="./chapter-2.jpeg" />
+          <img
+            src="./chapter-2-1200.jpeg"
+            srcset="
+              ./chapter-2-480.jpeg   480w,
+              ./chapter-2-768.jpeg   768w,
+              ./chapter-2-1200.jpeg 1200w,
+              ./chapter-2-1920.jpeg 1920w
+            "
+            sizes="100vw"
+            alt="Une ville à taille humaine"
+          />
         </div>
         <h2><strong>Limours</strong> une ville à taille humaine</h2>
         <p>
@@ -109,7 +146,17 @@
 
       <section id="chapter-3" class="chapter">
         <div>
-          <img src="./chapter-3.jpeg" />
+          <img
+            src="./chapter-3-1200.jpeg"
+            srcset="
+              ./chapter-3-480.jpeg   480w,
+              ./chapter-3-768.jpeg   768w,
+              ./chapter-3-1200.jpeg 1200w,
+              ./chapter-3-1920.jpeg 1920w
+            "
+            sizes="100vw"
+            alt="Ici se prépare l'avenir"
+          />
         </div>
         <h2><strong>Limours</strong> ici se prépare l'avenir</h2>
         <p>
@@ -122,5 +169,13 @@
         </p>
       </section>
     </section>
+
+    <footer>
+      <p class="container">
+        Retrouvez-nous sur :<br />
+        <a href="http:">Facebook</a> | <a href="http:">Instagram</a> |
+        <a href="mailto:contact@aimonslimours.fr">Email</a>
+      </p>
+    </footer>
   </body>
 </html>
