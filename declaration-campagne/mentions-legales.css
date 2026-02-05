@@ -1,0 +1,31 @@
+main h1 {
+  color: #78a22f;
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+main h2 {
+  color: #f08012;
+  font-size: 1.3rem;
+  margin: 2rem 0 0.5rem 0;
+}
+
+main ul {
+  margin-left: 1.5rem;
+}
+
+main a {
+  color: #f08012;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 2rem 0;
+  color: #78a22f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
