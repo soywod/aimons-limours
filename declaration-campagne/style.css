@@ -109,19 +109,19 @@ footer {
   background: #eeeeee;
 }
 
-#address {
+#legal-notices {
   font-size: 0.9rem;
   background: #333333;
   color: white;
 }
 
-#address a {
+#legal-notices a {
   color: #cccccc;
   text-decoration: none;
   margin-left: 1rem;
 }
 
-#address a:hover {
+#legal-notices a:hover {
   color: white;
   text-decoration: underline;
 }
