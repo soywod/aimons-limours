@@ -109,6 +109,15 @@ main p {
   }
 }
 
+#video {
+  margin: 2rem auto;
+}
+
+#video video {
+  display: block;
+  width: 100%;
+}
+
 footer {
   font-size: 1rem;
   padding: 0.5rem 0;

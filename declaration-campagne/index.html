@@ -38,6 +38,10 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
+    <!-- Open Graph Video -->
+    <meta property="og:video" content="https://aimonslimours.fr/video.mp4" />
+    <meta property="og:video:type" content="video/mp4" />
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
@@ -90,6 +94,14 @@
           "@type": "Person",
           "name": "Armand DOUIN",
           "jobTitle": "Tête de liste Aimons Limours"
+        },
+        "video": {
+          "@type": "VideoObject",
+          "name": "Déclaration de campagne - Aimons Limours",
+          "description": "Vidéo de présentation du projet de la liste Aimons Limours conduite par Armand DOUIN pour les élections municipales 2026 à Limours (91470, Essonne).",
+          "contentUrl": "https://aimonslimours.fr/video.mp4",
+          "thumbnailUrl": "https://aimonslimours.fr/background-1200.jpeg",
+          "uploadDate": "2026-02-09"
         }
       }
     </script>
@@ -101,7 +113,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v=1" />
   </head>
   <body>
     <header>
@@ -259,6 +271,17 @@
           pour répondre aux besoins de la population.
         </p>
       </article>
+    </section>
+
+    <section id="video" class="container">
+      <video
+        controls
+        preload="metadata"
+        aria-label="Vidéo de présentation du projet Aimons Limours"
+      >
+        <source src="./video.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la lecture de vidéos.
+      </video>
     </section>
 
     <footer>
