@@ -20,14 +20,35 @@ body {
   color: #333;
 }
 
-/* main { */
-/*   max-width: 1200px; */
-/*   margin: 0 auto; */
-/*   padding: 0 2rem; */
-/* } */
+#background {
+  width: 100%;
+  display: block;
+}
 
-h1 {
-  font-size: 2.5rem;
+#title {
+  position: relative;
+  gap: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: end;
+  background: #89be38;
+  font-weight: normal;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  #title {
+    font-size: 1.1rem;
+    padding: 0.75rem 0 0.75rem 4rem;
+    width: 60vw;
+    border-radius: 2rem 0 0 2rem;
+    margin-top: -1.5rem;
+  }
 }
 
 #trombinoscope {
@@ -47,7 +68,7 @@ h1 {
 .trombi-leader figcaption {
   margin-top: 0.5rem;
   font-weight: 700;
-  color: #e8872b;
+  color: #f08011;
   font-size: 1.1rem;
 }
 

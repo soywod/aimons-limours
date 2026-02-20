@@ -3,8 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Aimons Limours" />
-    <title>Aimons Limours</title>
+
+    <!-- SEO Meta Tags -->
+    <title>Programme | Aimons Limours - Élections Municipales 2026</title>
+    <meta
+      name="description"
+      content="Découvrez le programme complet de la liste Aimons Limours conduite par Armand DOUIN pour les élections municipales 2026 : urbanisme, biodiversité, éducation, cohésion sociale, sécurité, mobilités et bien plus."
+    />
+    <meta
+      name="keywords"
+      content="programme municipal, Aimons Limours, Armand DOUIN, élections municipales 2026, Limours, 91470, Essonne, urbanisme, biodiversité, éducation, sécurité, mobilités douces"
+    />
+    <meta name="author" content="Aimons Limours" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://aimonslimours.fr/programme/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta
+      property="og:title"
+      content="Programme | Aimons Limours - Élections Municipales 2026"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez le programme complet de la liste Aimons Limours conduite par Armand DOUIN pour les élections municipales 2026 à Limours (91470)."
+    />
+    <meta property="og:url" content="https://aimonslimours.fr/programme/" />
+    <meta property="og:site_name" content="Aimons Limours" />
+    <meta
+      property="og:image"
+      content="https://aimonslimours.fr/programme/chapter-1/title.jpeg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Programme | Aimons Limours - Élections Municipales 2026"
+    />
+    <meta
+      name="twitter:description"
+      content="Découvrez le programme complet de la liste Aimons Limours pour les élections municipales 2026 à Limours."
+    />
+    <meta
+      name="twitter:image"
+      content="https://aimonslimours.fr/programme/chapter-1/title.jpeg"
+    />
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="FR-91" />
+    <meta name="geo.placename" content="Limours" />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#89be38" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Programme - Aimons Limours",
+        "description": "Programme complet de la liste Aimons Limours conduite par Armand DOUIN pour les élections municipales 2026 à Limours (91470, Essonne).",
+        "url": "https://aimonslimours.fr/programme/",
+        "inLanguage": "fr",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Aimons Limours",
+          "url": "https://aimonslimours.fr"
+        },
+        "about": {
+          "@type": "Organization",
+          "name": "Aimons Limours",
+          "email": "contact@aimonslimours.fr",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Limours",
+            "postalCode": "91470",
+            "addressRegion": "Essonne",
+            "addressCountry": "FR"
+          }
+        },
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Armand DOUIN",
+          "jobTitle": "Tête de liste Aimons Limours"
+        }
+      }
+    </script>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,12 +103,42 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="chapter-1/style.css" />
+    <link rel="stylesheet" href="chapter-2/style.css" />
+    <link rel="stylesheet" href="chapter-3/style.css" />
   </head>
   <body>
+    <header>
+      <img
+        id="background"
+        src="../declaration-campagne/background-1200.jpeg"
+        srcset="
+          ../declaration-campagne/background-480.jpeg   480w,
+          ../declaration-campagne/background-768.jpeg   768w,
+          ../declaration-campagne/background-1200.jpeg 1200w,
+          ../declaration-campagne/background-1920.jpeg 1920w
+        "
+        sizes="100vw"
+        alt="Vue panoramique de Limours, commune de l'Essonne"
+      />
+
+      <h1 id="title">
+        Programme de la liste conduite par
+        <strong>Armand DOUIN</strong>
+      </h1>
+    </header>
+
     <section id="quand-ville-et-nature-ne-font-qu-un" class="chapter-1">
       <section class="chapter">
         <div class="chapter-background">
-          <img src="./chapter-1/title.jpeg" />
+          <img
+            src="./chapter-1/title.jpeg"
+            srcset="
+              ./chapter-1/title-480.jpeg  480w,
+              ./chapter-1/title-960.jpeg  960w,
+              ./chapter-1/title.jpeg     2480w
+            "
+            sizes="50vw"
+          />
         </div>
 
         <h2 class="chapter-title">
@@ -33,1063 +153,1951 @@
       </section>
 
       <section id="urbanisme-et-amenagement-du-territoire">
-        <h3>Urbanisme et aménagement du territoire</h3>
+        <h3>Urbanisme <span>et aménagement du territoire</span></h3>
 
-        <p>
-          Depuis 25 ans, en termes d’urbanisme, une politique volontariste a été
-          mise en œuvre. Elle peut être résumée par la formule « garder un pied
-          à la ville, et l’autre à la campagne ».
-        </p>
+        <div class="urbanisme-grid">
+          <aside class="urbanisme-sidebar">
+            <p>
+              Il s'agit bien ici de maîtriser notre développement tout en
+              maintenant l'attractivité de la commune.
+            </p>
+          </aside>
 
-        <p>
-          La traduction concrète de cette orientation se retrouve dans l’actuel
-          Plan Local d’Urbanisme (PLU) dont le socle est le Projet d’Aménagement
-          et de Développement Durable (PADD), véritable préambule dans lequel
-          sont définies les grandes directions
-        </p>
+          <div class="urbanisme-text">
+            <p>
+              Depuis 25 ans, en termes d'urbanisme, une politique volontariste a
+              été mise en œuvre. Elle peut être résumée par la formule « garder
+              un pied à la ville, et l'autre à la campagne ».
+            </p>
 
-        <p>
-          <strong>
-            C’est grâce à cette politique d’aménagement du territoire que
-            Limours a entretenu un cadre de vie propice à l’épanouissement de sa
-            population.
-          </strong>
-        </p>
+            <p>
+              La traduction concrète de cette orientation se retrouve dans
+              l'actuel Plan Local d'Urbanisme (PLU) dont le socle est le Projet
+              d'Aménagement et de Développement Durable (PADD), véritable
+              préambule dans lequel sont définies les grandes directions.
+            </p>
 
-        <p>
-          Atteindre tout comme préserver cet objectif n’est pas une évidence.
-          Face à la pression foncière et aux multiples tentatives législatives
-          visant à retirer aux communes la maîtrise de leurs sols, l’équipe
-          Aimons Limours reste et restera vigilante et extrêmement déterminée à
-          défendre sa singularité ainsi que celle des 3 hameaux de la commune :
-          Roussigny, Chaumusson et Le Cormier.
-        </p>
+            <p>
+              <strong>
+                C'est grâce à cette politique d'aménagement du territoire que
+                Limours a entretenu un cadre de vie propice à l'épanouissement
+                de sa population.
+              </strong>
+            </p>
 
-        <p>
-          En effet, dès les années 2000, la commune a choisi d’orienter sa
-          stratégie d’urbanisme autour du développement durable. C’est grâce à
-          cette action que Limours a su maîtriser l’évolution de sa population
-          pour parvenir à 6 648 habitants en 2025.
-        </p>
+            <p>
+              Atteindre tout comme préserver cet objectif n'est pas une
+              évidence. Face à la pression foncière et aux multiples tentatives
+              législatives visant à retirer aux communes la maîtrise de leurs
+              sols, l'équipe Aimons Limours reste et restera vigilante et
+              extrêmement déterminée à défendre sa singularité ainsi que celle
+              des 3 hameaux de la commune : Roussigny, Chaumusson et Le Cormier.
+            </p>
 
-        <p>
-          Pour mesurer cette maîtrise, il suffit de comparer deux périodes
-          équivalentes de 23 ans :
-        </p>
+            <p>
+              En effet, dès les années 2000, la commune a choisi d'orienter sa
+              stratégie d'urbanisme autour du développement durable. C'est grâce
+              à cette action que Limours a su maîtriser l'évolution de sa
+              population pour parvenir à 6 648 habitants en 2025.
+            </p>
 
-        <ul>
-          <li>de 1978 à 2001, la population a augmenté de 2 270 habitants</li>
+            <p>
+              Pour mesurer cette maîtrise, il suffit de comparer deux périodes
+              équivalentes de 23 ans :
+            </p>
 
-          <li>de 2001 et 2025, la hausse n’a été que de 177 habitants.</li>
-        </ul>
+            <ul>
+              <li>
+                de 1978 à 2001, la population a augmenté de 2 270 habitants,
+              </li>
+              <li>de 2001 et 2025, la hausse n'a été que de 177 habitants.</li>
+            </ul>
+          </div>
+
+          <figure class="urbanisme-img-quartier">
+            <img
+              src="./chapter-1/urbanisme-2.jpg"
+              alt="Réalisation urbaine Quartier Ouest"
+              srcset="
+                ./chapter-1/urbanisme-2-480.jpg 480w,
+                ./chapter-1/urbanisme-2.jpg     900w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <figcaption>Réalisation urbaine Quartier Ouest</figcaption>
+          </figure>
+        </div>
+
+        <figure class="urbanisme-img-panoramic">
+          <img
+            src="./chapter-1/urbanisme-1.jpg"
+            alt="Vue panoramique de Limours"
+            srcset="
+              ./chapter-1/urbanisme-1-480.jpg  480w,
+              ./chapter-1/urbanisme-1-960.jpg  960w,
+              ./chapter-1/urbanisme-1.jpg     3840w
+            "
+            sizes="(max-width: 1248px) 100vw, 1200px"
+          />
+        </figure>
       </section>
 
       <section id="biodiversite-trame-verte-bleue-et-noire">
-        <h3>Biodiversité, trame verte, bleue et noire</h3>
+        <h3>Biodiversité, <span>trame verte, bleue et noire</span></h3>
 
-        <p>
-          Depuis les années 2000, Limours a toujours veillé scrupuleusement à
-          maintenir un équilibre dans sa forme urbaine.
-        </p>
+        <div class="biodiversite-hero">
+          <img
+            src="./chapter-1/biodiversite-2.jpg"
+            alt="Espaces verts de Limours"
+            srcset="
+              ./chapter-1/biodiversite-2-480.jpg 480w,
+              ./chapter-1/biodiversite-2-960.jpg 960w,
+              ./chapter-1/biodiversite-2.jpg     985w
+            "
+            sizes="(max-width: 1248px) 100vw, 1200px"
+          />
+        </div>
 
-        <p>
-          En effet, sur les 1425 hectares de superficie communale, les espaces
-          agricoles représentent 56%, les espaces boisés 23%, la zone urbanisée
-          ne représente, elle, que 21% du territoire.
-        </p>
+        <div class="biodiversite-grid">
+          <div class="biodiversite-text">
+            <p>
+              Depuis les années 2000, Limours a toujours veillé scrupuleusement
+              à maintenir un équilibre dans sa forme urbaine.
+            </p>
 
-        <p>
-          Cependant, l’enjeu d’aujourd’hui n’est plus seulement celui de
-          préserver l’environnement mais bien
-          <strong
-            >d’assurer la pérennité des conditions essentielles à la vie</strong
-          >, dans un contexte de changement climatique accéléré.
-        </p>
+            <p>
+              En effet, sur les 1425 hectares de superficie communale, les
+              espaces agricoles représentent 56%, les espaces boisés 23%, la
+              zone urbanisée ne représente, elle, que 21% du territoire.
+            </p>
 
-        <p>
-          C’est précisément l’objectif de notre trame verte (milieux naturels et
-          semi-naturels terrestres) de notre trame bleue (réseaux aquatiques et
-          humides) ainsi que de la trame noire (protection de la biodiversité
-          nocturne de la pollution lumineuse) prérequis nécessaires au maintien
-          de la nature en milieu urbain.
-        </p>
+            <div class="biodiversite-stats">
+              <div class="biodiversite-stat">
+                <span class="biodiversite-stat-value">56%</span>
+                <span class="biodiversite-stat-label">Agricole</span>
+              </div>
+              <div class="biodiversite-stat">
+                <span class="biodiversite-stat-value">23%</span>
+                <span class="biodiversite-stat-label">Boisé</span>
+              </div>
+              <div class="biodiversite-stat">
+                <span class="biodiversite-stat-value">21%</span>
+                <span class="biodiversite-stat-label">Urbanisé</span>
+              </div>
+            </div>
 
-        <p>
-          Entretenir et mettre en valeur les parcs communaux, continuer le
-          développement du verger pédagogique, confirmer les pratiques
-          vertueuses dans l’entretien des espaces verts sont autant d’exemples
-          qu’illustrent cette volonté.
-        </p>
+            <p>
+              Cependant, l'enjeu d'aujourd'hui n'est plus seulement celui de
+              préserver l'environnement mais bien
+              <strong
+                >d'assurer la pérennité des conditions essentielles à la
+                vie</strong
+              >, dans un contexte de changement climatique accéléré.
+            </p>
 
-        <p>
-          La Prédecelle, traversant notre commune sur 5 km de long, fait
-          également l’objet d’une attention particulière. La gestion de ce
-          patrimoine hydraulique est désormais confiée au Syndicat de l’Orge
-          (SYORP), possédant une ingénierie et des compétences plus en rapport
-          avec l’ampleur de la tâche que nécessite son entretien et sa
-          sécurisation.
-        </p>
+            <p>
+              C'est précisément l'objectif de notre trame verte (milieux
+              naturels et semi-naturels terrestres) de notre trame bleue
+              (réseaux aquatiques et humides) ainsi que de la trame noire
+              (protection de la biodiversité nocturne de la pollution lumineuse)
+              prérequis nécessaires au maintien de la nature en milieu urbain.
+            </p>
 
-        <p>
-          Ces attentions toutes particulières à notre environnement et à son
-          équilibre ont permis et permettront de répondre à la question
-          fondamentale :
-          <strong
-            >comment associer le développement humain de notre commune tout en
-            préservant la biodiversité ?</strong
-          >
-        </p>
+            <p>
+              Entretenir et mettre en valeur les parcs communaux, continuer le
+              développement du verger pédagogique, confirmer les pratiques
+              vertueuses dans l'entretien des espaces verts sont autant
+              d'exemples qu'illustrent cette volonté.
+            </p>
+
+            <p>
+              La Prédecelle, traversant notre commune sur 5 km de long, fait
+              également l'objet d'une attention particulière. La gestion de ce
+              patrimoine hydraulique est désormais confiée au Syndicat de l'Orge
+              (SYORP), possédant une ingénierie et des compétences plus en
+              rapport avec l'ampleur de la tâche que nécessite son entretien et
+              sa sécurisation.
+            </p>
+
+            <p>
+              Ces attentions toutes particulières à notre environnement et à son
+              équilibre ont permis et permettront de répondre à la question
+              fondamentale :
+              <strong
+                >comment associer le développement humain de notre commune tout
+                en préservant la biodiversité ?</strong
+              >
+            </p>
+          </div>
+
+          <div class="biodiversite-images">
+            <img
+              src="./chapter-1/biodiversite-champs.jpg"
+              alt="Espaces agricoles de Limours"
+              srcset="
+                ./chapter-1/biodiversite-champs-480.jpg  480w,
+                ./chapter-1/biodiversite-champs-960.jpg  960w,
+                ./chapter-1/biodiversite-champs.jpg     2935w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <img
+              src="./chapter-1/biodiversite-5.jpg"
+              alt="Flore locale"
+              srcset="
+                ./chapter-1/biodiversite-5-480.jpg 480w,
+                ./chapter-1/biodiversite-5.jpg     821w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <img
+              src="./chapter-1/biodiversite-4.jpeg"
+              alt="Parc communal de Limours"
+              srcset="
+                ./chapter-1/biodiversite-4-480.jpeg  480w,
+                ./chapter-1/biodiversite-4-960.jpeg  960w,
+                ./chapter-1/biodiversite-4.jpeg     1600w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="entretien-du-patrimoine">
-        <h3>Entretien du patrimoine (bâti, voirie, réseaux divers)</h3>
+        <h3>
+          Entretien du patrimoine
+          <span>(bâti, voirie, réseaux divers)</span>
+        </h3>
 
-        <section id="bati">
+        <figure class="patrimoine-hero">
+          <img
+            src="./chapter-1/patrimoine-hero.jpg"
+            alt="Vue panoramique de Limours au coucher de soleil"
+            srcset="
+              ./chapter-1/patrimoine-hero-480.jpg  480w,
+              ./chapter-1/patrimoine-hero-960.jpg  960w,
+              ./chapter-1/patrimoine-hero.jpg     4540w
+            "
+            sizes="(max-width: 1248px) 100vw, 1200px"
+          />
+        </figure>
+
+        <section id="bati" class="patrimoine-subsection">
           <h4>Bâti</h4>
 
-          <p>
-            L’entretien du patrimoine communal constitue une priorité qui relève
-            de la gageure si l’on considère le net recul des moyens financiers à
-            disposition des communes. C’est ainsi par exemple, que le choix de
-            la rénovation des deux groupes scolaires communaux fut guidé par la
-            combinaison entre la maîtrise démographique et l’anticipation de la
-            crise énergétique.
-          </p>
+          <div class="patrimoine-bati-grid">
+            <div class="patrimoine-bati-text">
+              <p>
+                L'entretien du patrimoine communal constitue une priorité qui
+                relève de la gageure si l'on considère le net recul des moyens
+                financiers à disposition des communes. C'est ainsi par exemple,
+                que le choix de la rénovation des deux groupes scolaires
+                communaux fut guidé par la combinaison entre la maîtrise
+                démographique et l'anticipation de la crise énergétique.
+              </p>
 
-          <p>
-            Néanmoins, le maintien en capacité opérationnel de l’ensemble des 25
-            bâtiments communaux constitue pour nous une impérieuse nécessité.
-          </p>
+              <p>
+                Néanmoins, le maintien en capacité opérationnel de l'ensemble
+                des 25 bâtiments communaux constitue pour nous une impérieuse
+                nécessité.
+              </p>
+            </div>
+
+            <div class="patrimoine-bati-images">
+              <img
+                src="./chapter-1/patrimoine-bati-1.jpeg"
+                alt="La Scène"
+                srcset="
+                  ./chapter-1/patrimoine-bati-1-480.jpeg  480w,
+                  ./chapter-1/patrimoine-bati-1-960.jpeg  960w,
+                  ./chapter-1/patrimoine-bati-1.jpeg     5712w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-1/patrimoine-bati-2.jpeg"
+                alt="Centre Technique Municipal"
+                srcset="
+                  ./chapter-1/patrimoine-bati-2-480.jpeg  480w,
+                  ./chapter-1/patrimoine-bati-2-960.jpeg  960w,
+                  ./chapter-1/patrimoine-bati-2.jpeg     1600w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-1/patrimoine-bati-3.jpeg"
+                alt="Maison de Santé Pluriprofessionnelle"
+                srcset="
+                  ./chapter-1/patrimoine-bati-3-480.jpeg  480w,
+                  ./chapter-1/patrimoine-bati-3-960.jpeg  960w,
+                  ./chapter-1/patrimoine-bati-3.jpeg     1200w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+            </div>
+          </div>
         </section>
 
-        <section id="voirie">
+        <section id="voirie" class="patrimoine-subsection">
           <h4>Voirie</h4>
 
-          <p>
-            Avec la responsabilité de 57 km de voirie à entretenir, la commune
-            doit faire face un double défi : la mobilisation des budgets
-            nécessaires en période de crise et la programmation la plus adaptée
-            dans le temps. Ces contraintes peuvent être génératrices de
-            frustrations tant l’ampleur de la tâche dépasse les capacités
-            budgétaires annuelles de la commune.
-          </p>
+          <div class="patrimoine-voirie-grid">
+            <div class="patrimoine-voirie-text">
+              <p>
+                Avec la responsabilité de 57 km de voirie à entretenir, la
+                commune doit faire face un double défi : la mobilisation des
+                budgets nécessaires en période de crise et la programmation la
+                plus adaptée dans le temps. Ces contraintes peuvent être
+                génératrices de frustrations tant l'ampleur de la tâche dépasse
+                les capacités budgétaires annuelles de la commune.
+              </p>
 
-          <p>
-            Par ailleurs, traversée par deux axes départementaux majeurs, la
-            ville travaille en étroite collaboration avec les services du
-            Département afin d’améliorer durablement la qualité et la sécurité
-            de ces voies structurantes.
-          </p>
+              <p>
+                Par ailleurs, traversée par deux axes départementaux majeurs, la
+                ville travaille en étroite collaboration avec les services du
+                Département afin d'améliorer durablement la qualité et la
+                sécurité de ces voies structurantes.
+              </p>
+            </div>
+
+            <div class="patrimoine-voirie-images">
+              <img
+                src="./chapter-1/patrimoine-voirie-1.jpg"
+                alt="Vue aérienne de la voirie"
+                srcset="
+                  ./chapter-1/patrimoine-voirie-1-480.jpg  480w,
+                  ./chapter-1/patrimoine-voirie-1-960.jpg  960w,
+                  ./chapter-1/patrimoine-voirie-1.jpg     3840w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-1/patrimoine-voirie-2.jpeg"
+                alt="Travaux de voirie"
+                srcset="
+                  ./chapter-1/patrimoine-voirie-2-480.jpeg  480w,
+                  ./chapter-1/patrimoine-voirie-2-960.jpeg  960w,
+                  ./chapter-1/patrimoine-voirie-2.jpeg     2048w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+            </div>
+          </div>
         </section>
 
-        <section id="entretien-du-patrimoine-reseaux-souterrains">
+        <section
+          id="entretien-du-patrimoine-reseaux-souterrains"
+          class="patrimoine-subsection"
+        >
           <h4>Réseaux souterrains</h4>
 
-          <p>
-            Si de nombreuses infrastructures publiques sont visibles, d’autres
-            ne le sont pas et, pour autant, forment un patrimoine invisible mais
-            pourtant indispensable.
-          </p>
+          <div class="patrimoine-reseaux-grid">
+            <div class="patrimoine-reseaux-text">
+              <p>
+                Si de nombreuses infrastructures publiques sont visibles,
+                d'autres ne le sont pas et, pour autant, forment un patrimoine
+                invisible mais pourtant indispensable.
+              </p>
 
-          <p>
-            Entretenir ce patrimoine est une tâche complexe et technique qui
-            nécessite une attention du quotidien.
-            <strong>Le Système d’Information Géographique de la Ville</strong>
-            (SIG) permet d’appréhender :
-          </p>
+              <p>
+                Entretenir ce patrimoine est une tâche complexe et technique qui
+                nécessite une attention du quotidien.
+                <strong
+                  >Le Système d'Information Géographique de la Ville</strong
+                >
+                (SIG) permet d'appréhender :
+              </p>
 
-          <ul>
-            <li>45 km de réseau d’eau potable</li>
+              <div class="patrimoine-reseaux-stats">
+                <div class="patrimoine-reseaux-stat">
+                  <span class="patrimoine-reseaux-stat-value">45 km</span>
+                  <span class="patrimoine-reseaux-stat-label"
+                    >de réseau d'eau potable</span
+                  >
+                </div>
+                <div class="patrimoine-reseaux-stat">
+                  <span class="patrimoine-reseaux-stat-value">63 km</span>
+                  <span class="patrimoine-reseaux-stat-label"
+                    >de réseau d'assainissement, dont 35 pour les eaux pluviales
+                    et 28 pour les eaux usées</span
+                  >
+                </div>
+                <div class="patrimoine-reseaux-stat">
+                  <span class="patrimoine-reseaux-stat-value">34 km</span>
+                  <span class="patrimoine-reseaux-stat-label"
+                    >de linéaire pour le réseau d'éclairage public</span
+                  >
+                </div>
+              </div>
 
-            <li>
-              63 km de réseau d’assainissement, dont 35 pour les eaux pluviales
-              et 28 pour les eaux usées.
-            </li>
+              <p>
+                Là encore, c'est en partenariat étroit avec les différents
+                acteurs institutionnels possédant les compétences et
+                l'ingénierie nécessaires, que nous parviendrons à atteindre des
+                objectifs toujours plus exigeants.
+              </p>
+            </div>
 
-            <li>34 km de linéaire pour le réseau d’éclairage public</li>
-          </ul>
-
-          <p>
-            Là encore, c’est en partenariat étroit avec les différents acteurs
-            institutionnels possédant les compétences et l’ingénierie
-            nécessaires, que nous parviendrons à atteindre des objectifs
-            toujours plus exigeants.
-          </p>
+            <div class="patrimoine-reseaux-images">
+              <img
+                src="./chapter-1/patrimoine-reseaux-1.jpeg"
+                alt="Travaux sur les réseaux souterrains"
+                srcset="
+                  ./chapter-1/patrimoine-reseaux-1-480.jpeg  480w,
+                  ./chapter-1/patrimoine-reseaux-1-960.jpeg  960w,
+                  ./chapter-1/patrimoine-reseaux-1.jpeg     1200w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-1/patrimoine-reseaux-2.jpeg"
+                alt="Entretien des réseaux"
+                srcset="
+                  ./chapter-1/patrimoine-reseaux-2-480.jpeg  480w,
+                  ./chapter-1/patrimoine-reseaux-2-960.jpeg  960w,
+                  ./chapter-1/patrimoine-reseaux-2.jpeg     1200w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-1/patrimoine-reseaux-3.jpeg"
+                alt="Réseaux souterrains"
+                srcset="
+                  ./chapter-1/patrimoine-reseaux-3-480.jpeg  480w,
+                  ./chapter-1/patrimoine-reseaux-3-960.jpeg  960w,
+                  ./chapter-1/patrimoine-reseaux-3.jpeg     1200w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+            </div>
+          </div>
         </section>
       </section>
     </section>
 
-    <section id="une-ville-a-taille-humaine">
-      <h2>Limours une ville à taille humaine</h2>
+    <section id="une-ville-a-taille-humaine" class="chapter-2">
+      <section class="chapter">
+        <div class="chapter-background">
+          <img
+            src="./chapter-2/title.jpg"
+            srcset="
+              ./chapter-2/title-480.jpg  480w,
+              ./chapter-2/title-960.jpg  960w,
+              ./chapter-2/title.jpg     4032w
+            "
+            sizes="50vw"
+          />
+        </div>
 
-      <p>
-        Une commune est, avant tout, un territoire ou une administration. C’est
-        aussi un lien humain, un lien entre des femmes et des hommes, entre des
-        familles et des générations. Une commune est avant tout, le premier
-        visage de l’action publique, l’échelon de proximité par excellence.
-      </p>
+        <h2 class="chapter-title">
+          <strong>Limours</strong> une ville à taille humaine
+        </h2>
 
-      <section id="education-une-priorite-incontournable">
-        <h3>L’éducation, une priorité incontournable</h3>
-
-        <p>
-          Avec la famille, l’école incarne dans la construction de tout
-          individu, la première des fondations. C’est la raison pour laquelle
-          Limours a fait de l’éducation la première de ses priorités en veillant
-          à maintenir un investissement constant dans ses groupes scolaires.
-        </p>
-
-        <p>
-          L’école primaire joue un rôle essentiel : elle transmet les savoirs
-          fondamentaux, favorise l’intégration et contribue à l’inclusion de
-          tous les enfants. Au-delà des apprentissages, elle représente la
-          première étape du parcours vers l’autonomie, l’insertion
-          professionnelle et la pratique citoyenne.
-        </p>
-
-        <p>
-          Elle est le fruit d’une volonté politique claire de la part de
-          l’équipe municipale : intégrer dans le cursus pédagogique de chaque
-          enfant une ouverture à la Culture et au Sport.
-        </p>
-
-        <p>
-          Cette distinction attribuée par les ministères de la Culture et de
-          l’Éducation nationale, particulièrement difficile à obtenir, acte le
-          travail quotidien conduit en collaboration entre l’intervenant
-          musicien et l’intervenante sport, financés par la commune.
-        </p>
-
-        <p>
-          Cette priorité est avant tout une promesse faite à toutes les
-          familles.
-          <strong
-            >Celle d’un territoire où l’on grandit bien, où l’on apprend avec
-            confiance et où chacun peut construire son avenir.</strong
-          >
-        </p>
-
-        <p>
-          Entre activités pédagogiques et projets structurants, tout est mis en
-          œuvre au niveau communal pour que chaque enfant s’engage dans la vie
-          avec un socle de connaissances solides.
-        </p>
-
-        <p>
-          Par ailleurs, un travail constant a permis d’obtenir en 2022, le label
-          national « 100% EAC ». L’Éducation Artistique et Culturelle est
-          dispensée en complément de l’instruction scolaire de la maternelle au
-          lycée.
+        <p class="chapter-description">
+          Une commune est, avant tout, un territoire ou une administration.
+          C'est aussi un lien humain, un lien entre des femmes et des hommes,
+          entre des familles et des générations. Une commune est avant tout, le
+          premier visage de l'action publique, l'échelon de proximité par
+          excellence.
         </p>
       </section>
 
+      <section id="education-une-priorite-incontournable">
+        <h3>L'éducation, <span>une priorité incontournable</span></h3>
+
+        <div class="education-grid">
+          <aside class="education-sidebar">
+            <p>
+              Découvrir, s'éveiller, comprendre, travailler : à chaque enfant
+              qu'on enseigne, c'est un humain qu'on gagne.
+            </p>
+            <cite>Victor Hugo</cite>
+          </aside>
+
+          <div class="education-text">
+            <p>
+              Avec la famille, l'école incarne dans la construction de tout
+              individu, la première des fondations. C'est la raison pour
+              laquelle Limours a fait de l'éducation la première de ses
+              priorités en veillant à maintenir un investissement constant dans
+              ses groupes scolaires.
+            </p>
+
+            <p>
+              L'école primaire joue un rôle essentiel : elle transmet les
+              savoirs fondamentaux, favorise l'intégration et contribue à
+              l'inclusion de tous les enfants. Au-delà des apprentissages, elle
+              représente la première étape du parcours vers l'autonomie,
+              l'insertion professionnelle et la pratique citoyenne.
+            </p>
+
+            <p>
+              Elle est le fruit d'une volonté politique claire de la part de
+              l'équipe municipale : intégrer dans le cursus pédagogique de
+              chaque enfant une ouverture à la Culture et au Sport.
+            </p>
+
+            <p>
+              Cette distinction attribuée par les ministères de la Culture et de
+              l'Éducation nationale, particulièrement difficile à obtenir, acte
+              le travail quotidien conduit en collaboration entre l'intervenant
+              musicien et l'intervenante sport, financés par la commune.
+            </p>
+
+            <p>
+              Cette priorité est avant tout une promesse faite à toutes les
+              familles.
+              <strong
+                >Celle d'un territoire où l'on grandit bien, où l'on apprend
+                avec confiance et où chacun peut construire son avenir.</strong
+              >
+            </p>
+
+            <p>
+              Entre activités pédagogiques et projets structurants, tout est mis
+              en œuvre au niveau communal pour que chaque enfant s'engage dans
+              la vie avec un socle de connaissances solides.
+            </p>
+
+            <p>
+              Par ailleurs, un travail constant a permis d'obtenir en 2022, le
+              label national « 100% EAC ». L'Éducation Artistique et Culturelle
+              est dispensée en complément de l'instruction scolaire de la
+              maternelle au lycée.
+            </p>
+          </div>
+
+          <div class="education-images">
+            <img
+              src="./chapter-2/education-1.jpg"
+              alt="École de Limours"
+              srcset="
+                ./chapter-2/education-1-480.jpg  480w,
+                ./chapter-2/education-1-960.jpg  960w,
+                ./chapter-2/education-1.jpg     1080w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <img
+              src="./chapter-2/education-2.jpg"
+              alt="École de Limours"
+              srcset="
+                ./chapter-2/education-2-480.jpg 480w,
+                ./chapter-2/education-2.jpg     934w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <img
+              src="./chapter-2/education-3.jpg"
+              alt="Activités scolaires"
+              srcset="
+                ./chapter-2/education-3-480.jpg  480w,
+                ./chapter-2/education-3-960.jpg  960w,
+                ./chapter-2/education-3.jpg     1131w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+          </div>
+        </div>
+
+        <figure class="education-hero">
+          <img
+            src="./chapter-2/education-4.jpeg"
+            alt="Élèves de Limours"
+            srcset="
+              ./chapter-2/education-4-480.jpeg  480w,
+              ./chapter-2/education-4-960.jpeg  960w,
+              ./chapter-2/education-4.jpeg     1600w
+            "
+            sizes="(max-width: 1248px) 100vw, 1200px"
+          />
+        </figure>
+      </section>
+
       <section id="pour-favoriser-epanouissement">
-        <h3>Pour favoriser l’épanouissement</h3>
+        <h3>Pour favoriser <span>l'épanouissement</span></h3>
 
-        <p>
-          Apprendre, travailler, être citoyen et participer à la vie collective
-          ne peuvent pleinement se déployer que si chacun peut s’épanouir
-          pleinement dans sa commune.
-        </p>
+        <div class="epanouissement-intro">
+          <p>
+            Apprendre, travailler, être citoyen et participer à la vie
+            collective ne peuvent pleinement se déployer que si chacun peut
+            s'épanouir pleinement dans sa commune.
+          </p>
 
-        <p>
-          Cela est possible à Limours grâce au très important vivier associatif
-          et son tissu étendu de bénévoles.
-        </p>
+          <p>
+            Cela est possible à Limours grâce au très important vivier
+            associatif et son tissu étendu de bénévoles.
+          </p>
 
-        <p>
-          Apportant son soutien constant, la municipalité est une actrice
-          majeure dans la mise en valeur de ce réseau associatif.
-        </p>
+          <p>
+            Apportant son soutien constant, la municipalité est une actrice
+            majeure dans la mise en valeur de ce réseau associatif.
+          </p>
+        </div>
 
-        <section id="culture">
+        <section id="culture" class="epanouissement-subsection">
           <h4>Culture</h4>
 
-          <p>
-            L’équipe Aimons Limours continuera de porter une ambition claire :
-            faire de la culture un moteur d’un vivreensemble, accessible à tous.
-          </p>
+          <div class="culture-grid">
+            <div class="culture-text">
+              <p>
+                L'équipe Aimons Limours continuera de porter une ambition claire
+                : faire de la culture un moteur d'un vivre-ensemble, accessible
+                à tous.
+              </p>
 
-          <p>
-            Cette vision se traduit par la mise en place d’événements qui
-            rassemblent :
-          </p>
+              <p>
+                Cette vision se traduit par la mise en place d'événements qui
+                rassemblent :
+              </p>
 
-          <ul>
-            <li>
-              <strong>Limours à l’UniS’Sons</strong>, où habitants, associations
-              et collectifs créent ensemble spectacles, musiques, danses et
-              projets intergénérationnels
-            </li>
+              <ul>
+                <li>
+                  <strong>Limours à l'UniS'Sons</strong>, où habitants,
+                  associations et collectifs créent ensemble spectacles,
+                  musiques, danses et projets intergénérationnels
+                </li>
 
-            <li>
-              <strong>Le Mimi Festival</strong>, rendez-vous de septembre dédié
-              aux enfants et aux familles
-            </li>
+                <li>
+                  <strong>Le Mimi Festival</strong>, rendez-vous de septembre
+                  dédié aux enfants et aux familles
+                </li>
 
-            <li>
-              <strong>Le Salon du livre jeunesse</strong> qui, depuis 16 ans,
-              rythme la fin d’année.
-            </li>
-          </ul>
+                <li>
+                  <strong>Le Salon du livre jeunesse</strong> qui, depuis 16
+                  ans, rythme la fin d'année.
+                </li>
+              </ul>
 
-          <p>
-            Nous continuerons d’offrir une programmation culturelle variée, dans
-            et hors les murs, pour permettre à chacun de trouver sa place ou de
-            découvrir de nouvelles formes d’expression artistique.
-          </p>
+              <p>
+                Nous continuerons d'offrir une programmation culturelle variée,
+                dans et hors les murs, pour permettre à chacun de trouver sa
+                place ou de découvrir de nouvelles formes d'expression
+                artistique.
+              </p>
 
-          <p>
-            Cette richesse culturelle s’appuie sur un tissu d’équipements
-            complémentaires regroupés dans l’Espace Culturel Michel Berger
-            (ECMB) :
-          </p>
+              <p>
+                Cette richesse culturelle s'appuie sur un tissu d'équipements
+                complémentaires regroupés dans l'Espace Culturel Michel Berger
+                (ECMB) :
+              </p>
 
-          <ul>
-            <li>
-              <strong>La bibliothèque</strong>, dynamique et très fréquentée,
-              propose lectures, ateliers, expositions, ouvrages numériques, et
-              organise des temps forts comme le Salon du livre jeunesse, la Fête
-              de la Science ou encore l’accueil d’artistes pour des projets
-              scolaires.
-            </li>
+              <ul>
+                <li>
+                  <strong>La bibliothèque</strong>, dynamique et très
+                  fréquentée, propose lectures, ateliers, expositions, ouvrages
+                  numériques, et organise des temps forts comme le Salon du
+                  livre jeunesse, la Fête de la Science ou encore l'accueil
+                  d'artistes pour des projets scolaires.
+                </li>
 
-            <li>
-              <strong>La Grange</strong>, espace scénique en cœur de ville.
-            </li>
+                <li>
+                  <strong>La Grange</strong>, espace scénique en cœur de ville.
+                </li>
 
-            <li>
-              <strong>La Scène</strong>, salle de 300 places, recevant artistes
-              reconnus, résidences, concerts, théâtre et danse.
-            </li>
+                <li>
+                  <strong>La Scène</strong>, salle de 300 places, recevant
+                  artistes reconnus, résidences, concerts, théâtre et danse.
+                </li>
 
-            <li>
-              <strong>Le Studio</strong>, véritable laboratoire artistique,
-              propose salles de répétition, studio d’enregistrement et
-              accompagnement des jeunes musiciens.
-            </li>
-          </ul>
+                <li>
+                  <strong>Le Studio</strong>, véritable laboratoire artistique,
+                  propose salles de répétition, studio d'enregistrement et
+                  accompagnement des jeunes musiciens.
+                </li>
+              </ul>
 
-          <p>
-            Nous nous appuierons sur un réseau solide : Collectif Culture en
-            Essonne, Scène de recherche de Paris-Saclay, Département de
-            l’Essonne, Direction Régionale de l’Action Culturelle (DRAC)
-            Île-de-France, et d’autres partenaires. Ces coopérations
-            renforceront la création, la diffusion et l’accompagnement
-            artistique, faisant de Limours un
-            <strong>territoire culturel vivant, ouvert et partagé.</strong>
-          </p>
+              <p>
+                Nous nous appuierons sur un réseau solide : Collectif Culture en
+                Essonne, Scène de recherche de Paris-Saclay, Département de
+                l'Essonne, Direction Régionale de l'Action Culturelle (DRAC)
+                Île-de-France, et d'autres partenaires. Ces coopérations
+                renforceront la création, la diffusion et l'accompagnement
+                artistique, faisant de Limours un
+                <strong>territoire culturel vivant, ouvert et partagé.</strong>
+              </p>
+            </div>
+
+            <div class="culture-images">
+              <img
+                src="./chapter-2/culture-1.jpg"
+                alt="Événement culturel à Limours"
+                srcset="
+                  ./chapter-2/culture-1-480.jpg  480w,
+                  ./chapter-2/culture-1-960.jpg  960w,
+                  ./chapter-2/culture-1.jpg     1422w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-2/culture-2.jpeg"
+                alt="Le Mimi Festival"
+                srcset="
+                  ./chapter-2/culture-2-480.jpeg  480w,
+                  ./chapter-2/culture-2-960.jpeg  960w,
+                  ./chapter-2/culture-2.jpeg     2048w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-2/culture-3.jpeg"
+                alt="Spectacle à Limours"
+                srcset="
+                  ./chapter-2/culture-3-480.jpeg  480w,
+                  ./chapter-2/culture-3-960.jpeg  960w,
+                  ./chapter-2/culture-3.jpeg     1600w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-2/culture-4.jpg"
+                alt="Animation culturelle"
+                srcset="
+                  ./chapter-2/culture-4-480.jpg 480w,
+                  ./chapter-2/culture-4.jpg     651w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+            </div>
+          </div>
         </section>
 
-        <section id="sports">
+        <section id="sports" class="epanouissement-subsection">
           <h4>Sports</h4>
 
-          <p>
-            Compte tenu de sa taille, Limours dispose d’un tissu d’équipements
-            sportifs particulièrement complet même si la demande est en
-            perpétuelle développement. Largement utilisé par les nombreuses
-            associations de la commune, on y trouve :
-          </p>
+          <div class="sports-grid">
+            <div class="sports-text">
+              <p>
+                Compte tenu de sa taille, Limours dispose d'un tissu
+                d'équipements sportifs particulièrement complet même si la
+                demande est en perpétuelle développement. Largement utilisé par
+                les nombreuses associations de la commune, on y trouve :
+              </p>
 
-          <ul>
-            <li>
-              <strong>Le Parc des Sports Vincent Coupet</strong> : trois
-              terrains de football, une piste d’athlétisme, dix courts de tennis
-              dont deux couverts, deux terrains de padel, deux terrains de
-              pétanque, un terrain de beachvolley ainsi que deux club-houses.
-            </li>
+              <ul>
+                <li>
+                  <strong>Le Parc des Sports Vincent Coupet</strong> : trois
+                  terrains de football, une piste d'athlétisme, dix courts de
+                  tennis dont deux couverts, deux terrains de padel, deux
+                  terrains de pétanque, un terrain de beachvolley ainsi que deux
+                  club-houses.
+                </li>
 
-            <li>
-              <strong>3 gymnases</strong> : le gymnase municipal et deux
-              équipements intercommunaux (Halle des Sports et Nautilus)
-            </li>
+                <li>
+                  <strong>3 gymnases</strong> : le gymnase municipal et deux
+                  équipements intercommunaux (Halle des Sports et Nautilus)
+                </li>
 
-            <li>
-              <strong>Des espaces pour les pratiques libres</strong> : un
-              skatepark, un bowl et deux city-stades
-            </li>
+                <li>
+                  <strong>Des espaces pour les pratiques libres</strong> : un
+                  skatepark, un bowl et deux city-stades
+                </li>
 
-            <li>
-              <strong>2 parcours de santé</strong> : situés à l’Orée du Bois et
-              aux Cendrières
-            </li>
+                <li>
+                  <strong>2 parcours de santé</strong> : situés à l'Orée du Bois
+                  et aux Cendrières
+                </li>
 
-            <li>
-              <strong>De nombreux chemins de randonnée</strong>, dont un tronçon
-              de la Véloscénie reliant Paris au Mont-Saint-Michel.
-            </li>
-          </ul>
+                <li>
+                  <strong>De nombreux chemins de randonnée</strong>, dont un
+                  tronçon de la Véloscénie reliant Paris au Mont-Saint-Michel.
+                </li>
+              </ul>
+            </div>
+
+            <div class="sports-images">
+              <img
+                src="./chapter-2/sport-1.jpg"
+                alt="Équipements sportifs de Limours"
+                srcset="
+                  ./chapter-2/sport-1-480.jpg  480w,
+                  ./chapter-2/sport-1-960.jpg  960w,
+                  ./chapter-2/sport-1.jpg     1518w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-2/sport-2.jpg"
+                alt="Activités sportives"
+                srcset="
+                  ./chapter-2/sport-2-480.jpg 480w,
+                  ./chapter-2/sport-2.jpg     715w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-2/sport-3.jpeg"
+                alt="Infrastructures sportives"
+                srcset="
+                  ./chapter-2/sport-3-480.jpeg  480w,
+                  ./chapter-2/sport-3-960.jpeg  960w,
+                  ./chapter-2/sport-3.jpeg     1600w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+            </div>
+          </div>
         </section>
 
         <section id="et-nourrir-la-cohesion-sociale">
-          <h3>Et nourrir la cohésion sociale</h3>
+          <h3>Et nourrir la cohésion <span>sociale</span></h3>
 
-          <p>
-            Former les futurs citoyens, c’est également les accompagner dans une
-            intégration au collectif communal.
-          </p>
+          <div class="cohesion-grid">
+            <aside class="cohesion-sidebar">
+              <p>
+                Nul ne peut vivre pour lui seul, nul ne peut se développer, ni
+                même subsister, que par un effort commun et la coopération de
+                tous envers chacun.
+              </p>
+              <cite>Léon Bourgeois</cite>
+            </aside>
 
-          <p>
-            La cohésion sociale est une notion transversale très importante à
-            Limours. Le principe de Solidarité s’y inscrit dans chacun des
-            objectifs menés par l’équipe municipale.
-          </p>
+            <div class="cohesion-text">
+              <p>
+                Former les futurs citoyens, c'est également les accompagner dans
+                une intégration au collectif communal.
+              </p>
 
-          <p>
-            <strong
-              >Au travers d’actions concrètes, la commune est fortement engagée
-              pour soutenir et accompagner des associations d’intérêt général et
-              social.</strong
-            >
-            La semaine des Solidarités, Octobre Rose, le Studio’Café, la
-            Solithèque, ou bien encore le Téléthon, sont autant de marqueurs
-            importants de cette volonté.
-          </p>
+              <p>
+                La cohésion sociale est une notion transversale très importante
+                à Limours. Le principe de Solidarité s'y inscrit dans chacun des
+                objectifs menés par l'équipe municipale.
+              </p>
 
-          <p>
-            Nous poursuivrons et renforcerons notre engagement en faveur de ces
-            évènements.
-          </p>
+              <p>
+                <strong
+                  >Au travers d'actions concrètes, la commune est fortement
+                  engagée pour soutenir et accompagner des associations
+                  d'intérêt général et social.</strong
+                >
+                La semaine des Solidarités, Octobre Rose, le Studio'Café, la
+                Solithèque, ou bien encore le Téléthon, sont autant de marqueurs
+                importants de cette volonté.
+              </p>
+
+              <p>
+                Nous poursuivrons et renforcerons notre engagement en faveur de
+                ces évènements.
+              </p>
+            </div>
+
+            <div class="cohesion-images">
+              <img
+                src="./chapter-2/cohesion-2.jpg"
+                alt="Événement solidaire à Limours"
+                srcset="
+                  ./chapter-2/cohesion-2-480.jpg  480w,
+                  ./chapter-2/cohesion-2-960.jpg  960w,
+                  ./chapter-2/cohesion-2.jpg     2495w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <div class="cohesion-images-row">
+                <img
+                  src="./chapter-2/cohesion-1.jpg"
+                  alt="Action de cohésion sociale"
+                  srcset="
+                    ./chapter-2/cohesion-1-480.jpg  480w,
+                    ./chapter-2/cohesion-1-960.jpg  960w,
+                    ./chapter-2/cohesion-1.jpg     1190w
+                  "
+                  sizes="(max-width: 900px) 100vw, 600px"
+                />
+                <img
+                  src="./chapter-2/cohesion-3.jpg"
+                  alt="Rencontre associative"
+                  srcset="
+                    ./chapter-2/cohesion-3-480.jpg  480w,
+                    ./chapter-2/cohesion-3-960.jpg  960w,
+                    ./chapter-2/cohesion-3.jpg     1386w
+                  "
+                  sizes="(max-width: 900px) 100vw, 600px"
+                />
+              </div>
+              <img
+                src="./chapter-2/cohesion-4.jpg"
+                alt="Solidarité à Limours"
+                srcset="
+                  ./chapter-2/cohesion-4-480.jpg  480w,
+                  ./chapter-2/cohesion-4-960.jpg  960w,
+                  ./chapter-2/cohesion-4.jpg     1673w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+            </div>
+          </div>
         </section>
 
         <section id="pour-toutes-les-generations">
-          <h3>Pour toutes les générations</h3>
+          <h3>Pour toutes les <span>générations</span></h3>
 
-          <p>
-            aintenir un cadre de vie favorable n’est possible qu’au travers
-            d’une offre de services publics adaptée aux besoins de chaque
-            génération.
-          </p>
+          <div class="generations-intro">
+            <aside class="generations-sidebar">
+              <p>
+                Se construire à Limours revêt la même importance qu'y bien
+                vieillir.
+              </p>
+            </aside>
 
-          <p>
-            Par des infrastructures et des actions diversifiées, Limours a
-            toujours veillé à orienter ses politiques en faveur de l’intérêt
-            général.
-          </p>
+            <div class="generations-intro-text">
+              <p>
+                Maintenir un cadre de vie favorable n'est possible qu'au travers
+                d'une offre de services publics adaptée aux besoins de chaque
+                génération.
+              </p>
 
-          <section id="petite-enfance">
+              <p>
+                Par des infrastructures et des actions diversifiées, Limours a
+                toujours veillé à orienter ses politiques en faveur de l'intérêt
+                général.
+              </p>
+            </div>
+          </div>
+
+          <section id="petite-enfance" class="generations-subsection">
             <h4>Petite enfance</h4>
 
-            <p>
-              Grâce à la volonté de la commune et aux dispositifs mis en place
-              avec ses partenaires institutionnels (Département, Protection
-              Médicale Infantile, Caisse d’Allocation familiale, CCPL), Limours
-              propose une offre de garde diversifiée :
-            </p>
+            <div class="generations-text">
+              <p>
+                Grâce à la volonté de la commune et aux dispositifs mis en place
+                avec ses partenaires institutionnels (Département, Protection
+                Médicale Infantile, Caisse d'Allocation familiale, CCPL),
+                Limours propose une offre de garde diversifiée :
+              </p>
 
-            <ul>
-              <li>
-                <strong>35 places</strong> au multi-accueil communal, répondant
-                chaque année aux besoins d’environ 40 familles;
-              </li>
+              <ul>
+                <li>
+                  <strong>35 places</strong> au multi-accueil communal,
+                  répondant chaque année aux besoins d'environ 40 familles;
+                </li>
 
-              <li>
-                <strong>9 places</strong> dans les multi-accueils
-                intercommunaux;
-              </li>
+                <li>
+                  <strong>9 places</strong> dans les multi-accueils
+                  intercommunaux;
+                </li>
 
-              <li>
-                <strong>1 LAEP</strong> (Lieu d’Accueil EnfantsParents)
-                intercommunal;
-              </li>
+                <li>
+                  <strong>1 LAEP</strong> (Lieu d'Accueil Enfants-Parents)
+                  intercommunal;
+                </li>
 
-              <li>
-                <strong>1 RAM</strong> (Relais d’assistantes maternelles);
-              </li>
+                <li>
+                  <strong>1 RAM</strong> (Relais d'assistantes maternelles);
+                </li>
 
-              <li>
-                Des <strong>permanences hebdomadaires de la PMI</strong> dans
-                des locaux communaux dédiés au « Saut du Loup ».
-              </li>
-            </ul>
+                <li>
+                  Des <strong>permanences hebdomadaires de la PMI</strong> dans
+                  des locaux communaux dédiés au « Saut du Loup ».
+                </li>
+              </ul>
 
-            <p>
-              Les accueils — communaux, intercommunaux, parentaux ou privés —
-              respectent les critères de taux de couverture fixés par la Caisse
-              d’Allocation Familiale (CAF).
-            </p>
+              <p>
+                Les accueils — communaux, intercommunaux, parentaux ou privés —
+                respectent les critères de taux de couverture fixés par la
+                Caisse d'Allocation Familiale (CAF).
+              </p>
 
-            <p>
-              Les enfants en situation de handicap bénéficient spécifiquement
-              d’un protocole d’accueil adapté et sont prioritaires dans les
-              multi-accueils.
-            </p>
+              <p>
+                Les enfants en situation de handicap bénéficient spécifiquement
+                d'un protocole d'accueil adapté et sont prioritaires dans les
+                multi-accueils.
+              </p>
+            </div>
           </section>
 
-          <section id="jeunesse">
+          <section id="jeunesse" class="generations-subsection">
             <h4>Jeunesse</h4>
 
-            <p>
-              À Limours,
-              <strong>20 % de la population a moins de 25 ans</strong>. Bien
-              grandir représente un enjeu majeur pour la ville de Limours.
-              Aussi, nous nous engageons à cet égard, à
-              <strong
-                >maintenir une offre de projet éducatif, culturel et
-                sportif</strong
-              >
-              de qualité, proposés dès la petite-enfance jusqu’à l’âge adulte :
-            </p>
+            <div class="jeunesse-grid">
+              <div class="generations-text">
+                <p>
+                  À Limours,
+                  <strong>20 % de la population a moins de 25 ans</strong>. Bien
+                  grandir représente un enjeu majeur pour la ville de Limours.
+                  Aussi, nous nous engageons à cet égard, à
+                  <strong
+                    >maintenir une offre de projet éducatif, culturel et
+                    sportif</strong
+                  >
+                  de qualité, proposés dès la petite-enfance jusqu'à l'âge
+                  adulte :
+                </p>
 
-            <ul>
-              <li>
-                <strong>Les « rendez-vous »</strong> est un dispositif de
-                loisirs culturels et artistiques destiné aux jeunes de 12 à 17
-                ans, favorisant la participation, la créativité et la
-                co-construction des activité;
-              </li>
+                <ul>
+                  <li>
+                    <strong>Les « rendez-vous »</strong> est un dispositif de
+                    loisirs culturels et artistiques destiné aux jeunes de 12 à
+                    17 ans, favorisant la participation, la créativité et la
+                    co-construction des activités;
+                  </li>
 
-              <li>
-                <strong>Le Pass’sports jeunes</strong> offre aux 6-16 ans un
-                lieu convivial pendant les vacances, avec des activités
-                sportives encadrées et des sorties durant l’été.
-              </li>
+                  <li>
+                    <strong>Le Pass'sports jeunes</strong> offre aux 6-16 ans un
+                    lieu convivial pendant les vacances, avec des activités
+                    sportives encadrées et des sorties durant l'été.
+                  </li>
 
-              <li>
-                Le Centre Communal d’Action Sociale (CCAS) propose des
-                <strong>séjours de vacances</strong> pour les 4-17 ans, avec une
-                participation financière de la commune à hauteur de 20 % du prix
-                de base.
-              </li>
+                  <li>
+                    Le Centre Communal d'Action Sociale (CCAS) propose des
+                    <strong>séjours de vacances</strong> pour les 4-17 ans, avec
+                    une participation financière de la commune à hauteur de 20 %
+                    du prix de base.
+                  </li>
 
-              <li>
-                La ville encourage l’engagement des jeunes. Elle propose aussi
-                aux 15-18 ans de rejoindre le
-                <strong>dispositif « jeunes bénévoles »</strong>, qui leur
-                permet de participer à des actions municipales adaptées en
-                fonction de leur âge : aide lors du carnaval, du Téléthon, ou
-                d’ateliers pour les plus petits et de valoriser pour leur
-                carrière professionnelle un engagement bénévole.
-              </li>
+                  <li>
+                    La ville encourage l'engagement des jeunes. Elle propose
+                    aussi aux 15-18 ans de rejoindre le
+                    <strong>dispositif « jeunes bénévoles »</strong>, qui leur
+                    permet de participer à des actions municipales adaptées en
+                    fonction de leur âge : aide lors du carnaval, du Téléthon,
+                    ou d'ateliers pour les plus petits et de valoriser pour leur
+                    carrière professionnelle un engagement bénévole.
+                  </li>
 
-              <li>
-                <strong
-                  >Un engagement porté auprès du programme Eloquentia</strong
-                >, en cofinançant le dispositif « Porter sa voix » en
-                partenariat avec le lycée Jules Verne et le collège Michel
-                Vignaud, permet aux jeunes de se former à l’expression orale.
-              </li>
-            </ul>
+                  <li>
+                    <strong
+                      >Un engagement porté auprès du programme
+                      Eloquentia</strong
+                    >, en cofinançant le dispositif « Porter sa voix » en
+                    partenariat avec le lycée Jules Verne et le collège Michel
+                    Vignaud, permet aux jeunes de se former à l'expression
+                    orale.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="jeunesse-images">
+                <img
+                  src="./chapter-2/jeunesse-1.jpeg"
+                  alt="Partie de Loup Garou lors des Rendez-vous"
+                  srcset="
+                    ./chapter-2/jeunesse-1-480.jpeg  480w,
+                    ./chapter-2/jeunesse-1-960.jpeg  960w,
+                    ./chapter-2/jeunesse-1.jpeg     1600w
+                  "
+                  sizes="(max-width: 900px) 100vw, 600px"
+                />
+                <img
+                  src="./chapter-2/jeunesse-2.jpeg"
+                  alt="Construction de bornes d'arcades"
+                />
+              </div>
+            </div>
           </section>
 
-          <section id="seniors">
+          <section id="seniors" class="generations-subsection">
             <h4>Séniors</h4>
 
-            <p>
-              La commune de Limours place ses aînés, et en particulier les plus
-              en difficulté, au cœur de ses préoccupations. Alors que
-              <strong>12% de la population a plus de 70 ans</strong>, la
-              municipalité adapte ses politiques publiques pour répondre à une
-              population senior grandissante.
-            </p>
+            <div class="seniors-grid">
+              <div class="generations-text">
+                <p>
+                  La commune de Limours place ses aînés, et en particulier les
+                  plus en difficulté, au cœur de ses préoccupations. Alors que
+                  <strong>12% de la population a plus de 70 ans</strong>, la
+                  municipalité adapte ses politiques publiques pour répondre à
+                  une population senior grandissante.
+                </p>
 
-            <p>
-              La Ville et le
-              <strong>Centre Communal d’Action Sociale</strong> (CCAS) ont mis
-              en place un éventail de services :
-            </p>
+                <p>
+                  La Ville et le
+                  <strong>Centre Communal d'Action Sociale</strong> (CCAS) ont
+                  mis en place un éventail de services :
+                </p>
 
-            <p>
-              Les aînés peuvent ainsi bénéficier d’un
-              <strong>soutien financier direct</strong> grâce au mandat
-              trimestriel, attribué sous conditions de ressources. Pour
-              favoriser le maintien à domicile en toute sécurité, des services
-              essentiels comme la <strong>téléassistance</strong> et le
-              <strong>portage de repas à domicile</strong> sont proposés.
-            </p>
+                <p>
+                  Les aînés peuvent ainsi bénéficier d'un
+                  <strong>soutien financier direct</strong> grâce au mandat
+                  trimestriel, attribué sous conditions de ressources. Pour
+                  favoriser le maintien à domicile en toute sécurité, des
+                  services essentiels comme la
+                  <strong>téléassistance</strong> et le
+                  <strong>portage de repas à domicile</strong> sont proposés.
+                </p>
 
-            <p>
-              De plus, la <strong>résidence autonomie ARPAVIE</strong> offre un
-              lieu de vie avec 60 logements (F1 ou F2), incluant restauration et
-              entretien effectués par du personnel communal mis à disposition au
-              travers d’une convention.
-            </p>
+                <p>
+                  De plus, la <strong>résidence autonomie ARPAVIE</strong>
+                  offre un lieu de vie avec 60 logements (F1 ou F2), incluant
+                  restauration et entretien effectués par du personnel communal
+                  mis à disposition au travers d'une convention.
+                </p>
 
-            <p>
-              Enfin, le CCAS s’associe à Nord-Ouest Autonomie (NOA) et l’Aide à
-              Domicile en Milieu Rural (ADMR) pour des actions de
-              <strong>prévention cruciales</strong> (plans grand froid et
-              canicule) et assure chaque année un moment de partage festif
-              autour du <strong>repas de Noël</strong>, que les aînés peuvent
-              choisir de prendre en commun, ou de recevoir chez eux en colis.
-            </p>
+                <p>
+                  Enfin, le CCAS s'associe à Nord-Ouest Autonomie (NOA) et
+                  l'Aide à Domicile en Milieu Rural (ADMR) pour des actions de
+                  <strong>prévention cruciales</strong> (plans grand froid et
+                  canicule) et assure chaque année un moment de partage festif
+                  autour du <strong>repas de Noël</strong>, que les aînés
+                  peuvent choisir de prendre en commun, ou de recevoir chez eux
+                  en colis.
+                </p>
 
-            <p>
-              Prendre soin de nos personnes âgées grâce aux plus jeunes, c’est
-              favoriser le lien intergénérationnel qui fonde les bases d’une
-              société solidaire.
-            </p>
+                <p>
+                  Prendre soin de nos personnes âgées grâce aux plus jeunes,
+                  c'est favoriser le lien intergénérationnel qui fonde les bases
+                  d'une société solidaire.
+                </p>
+              </div>
+
+              <div class="seniors-images">
+                <figure>
+                  <img
+                    src="./chapter-2/seniors-3.jpeg"
+                    alt="Repas des Aînés"
+                    srcset="
+                      ./chapter-2/seniors-3-480.jpeg  480w,
+                      ./chapter-2/seniors-3-960.jpeg  960w,
+                      ./chapter-2/seniors-3.jpeg     1600w
+                    "
+                    sizes="(max-width: 900px) 100vw, 600px"
+                  />
+                  <figcaption>Repas des Aînés</figcaption>
+                </figure>
+                <div class="seniors-images-row">
+                  <img
+                    src="./chapter-2/seniors-2.jpeg"
+                    alt="Activités pour les séniors"
+                    srcset="
+                      ./chapter-2/seniors-2-480.jpeg  480w,
+                      ./chapter-2/seniors-2-960.jpeg  960w,
+                      ./chapter-2/seniors-2.jpeg     1600w
+                    "
+                    sizes="(max-width: 900px) 100vw, 600px"
+                  />
+                  <figure>
+                    <img
+                      src="./chapter-2/seniors-1.jpeg"
+                      alt="Résidence pour personnes autonomes"
+                      srcset="
+                        ./chapter-2/seniors-1-480.jpeg  480w,
+                        ./chapter-2/seniors-1-960.jpeg  960w,
+                        ./chapter-2/seniors-1.jpeg     1600w
+                      "
+                      sizes="(max-width: 900px) 100vw, 600px"
+                    />
+                    <figcaption>Résidence pour personnes autonomes</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
           </section>
         </section>
 
         <section id="dans-une-relation-citoyenne">
-          <h3>Dans une relation citoyenne</h3>
+          <h3>Dans une relation <span>citoyenne</span></h3>
 
-          <p>
-            La commune est le premier échelon d’une démocratie vivante. Être
-            citoyen, c’est exercer des droits, mais aussi assumer des devoirs.
-            <strong
-              >La démocratie ne se limite pas au vote : elle se construit et se
-              nourrit au quotidien par l’implication du plus grand nombre dans
-              la gestion de l’intérêt général.</strong
-            >
-          </p>
+          <div class="citoyenne-grid">
+            <aside class="citoyenne-sidebar">
+              <p>
+                Faire vivre la démocratie au quotidien, c'est entretenir le
+                droit et le devoir de participer à la collectivité.
+              </p>
+            </aside>
 
-          <p>
-            C’est dans cet esprit que les différentes équipes municipales Aimons
-            Limours ont toujours privilégié la concertation et une écoute
-            attentive des habitants pour la conduite des projets communaux. Nous
-            nous engageons à poursuivre et à renforcer cette démarche, en
-            l’adaptant aux évolutions de notre société.
-          </p>
+            <div class="citoyenne-text">
+              <p>
+                La commune est le premier échelon d'une démocratie vivante. Être
+                citoyen, c'est exercer des droits, mais aussi assumer des
+                devoirs.
+                <strong
+                  >La démocratie ne se limite pas au vote : elle se construit et
+                  se nourrit au quotidien par l'implication du plus grand nombre
+                  dans la gestion de l'intérêt général.</strong
+                >
+              </p>
 
-          <p>
-            La mise en place des différents ateliers thématiques dans le cadre
-            de l’<strong>Agora citoyenne</strong> a permis de travailler
-            activement à la mise en place de concertations avec la population.
-            Cette démocratie participative permet à chaque citoyen, s’il le
-            souhaite, de contribuer concrètement aux orientations de la commune
-            et de devenir pleinement acteurs de la vie locale.
-          </p>
+              <p>
+                C'est dans cet esprit que les différentes équipes municipales
+                Aimons Limours ont toujours privilégié la concertation et une
+                écoute attentive des habitants pour la conduite des projets
+                communaux. Nous nous engageons à poursuivre et à renforcer cette
+                démarche, en l'adaptant aux évolutions de notre société.
+              </p>
 
-          <p>
-            C’est cette même volonté qui nous permettra également de
-            <strong
-              >maintenir la transparence dans la conduite des affaires
-              communales</strong
-            >
-            au travers des divers canaux de communication (Limours Magazine,
-            site internet, réseaux sociaux). Ces outils sont les piliers d’un
-            accès direct à l’information de la commune et permettent d’interagir
-            en temps réel avec les citoyens.
-          </p>
+              <p>
+                La mise en place des différents ateliers thématiques dans le
+                cadre de l'<strong>Agora citoyenne</strong> a permis de
+                travailler activement à la mise en place de concertations avec
+                la population. Cette démocratie participative permet à chaque
+                citoyen, s'il le souhaite, de contribuer concrètement aux
+                orientations de la commune et de devenir pleinement acteurs de
+                la vie locale.
+              </p>
+
+              <p>
+                C'est cette même volonté qui nous permettra également de
+                <strong
+                  >maintenir la transparence dans la conduite des affaires
+                  communales</strong
+                >
+                au travers des divers canaux de communication (Limours Magazine,
+                site internet, réseaux sociaux). Ces outils sont les piliers
+                d'un accès direct à l'information de la commune et permettent
+                d'interagir en temps réel avec les citoyens.
+              </p>
+            </div>
+
+            <div class="citoyenne-images">
+              <figure>
+                <img
+                  src="./chapter-2/citoyenne-1.jpeg"
+                  alt="Atelier thématique dans le cadre de l'Agora citoyenne"
+                  srcset="
+                    ./chapter-2/citoyenne-1-480.jpeg  480w,
+                    ./chapter-2/citoyenne-1-960.jpeg  960w,
+                    ./chapter-2/citoyenne-1.jpeg     1600w
+                  "
+                  sizes="(max-width: 900px) 100vw, 600px"
+                />
+                <figcaption>
+                  Ateliers thématiques dans le cadre de l'Agora citoyenne
+                </figcaption>
+              </figure>
+              <div class="citoyenne-images-row">
+                <img
+                  src="./chapter-2/citoyenne-2.jpeg"
+                  alt="Atelier de l'Agora citoyenne"
+                  srcset="
+                    ./chapter-2/citoyenne-2-480.jpeg  480w,
+                    ./chapter-2/citoyenne-2-960.jpeg  960w,
+                    ./chapter-2/citoyenne-2.jpeg     1200w
+                  "
+                  sizes="(max-width: 900px) 100vw, 600px"
+                />
+                <img
+                  src="./chapter-2/citoyenne-3.jpg"
+                  alt="Vie citoyenne à Limours"
+                  srcset="
+                    ./chapter-2/citoyenne-3-480.jpg  480w,
+                    ./chapter-2/citoyenne-3-960.jpg  960w,
+                    ./chapter-2/citoyenne-3.jpg     1621w
+                  "
+                  sizes="(max-width: 900px) 100vw, 600px"
+                />
+              </div>
+              <div class="citoyenne-images-row">
+                <img
+                  src="./chapter-2/citoyenne-4.jpg"
+                  alt="Limours"
+                  srcset="
+                    ./chapter-2/citoyenne-4-480.jpg  480w,
+                    ./chapter-2/citoyenne-4-960.jpg  960w,
+                    ./chapter-2/citoyenne-4.jpg     1201w
+                  "
+                  sizes="(max-width: 900px) 100vw, 600px"
+                />
+                <img
+                  src="./chapter-2/citoyenne-5.jpeg"
+                  alt="Patrimoine de Limours"
+                  srcset="
+                    ./chapter-2/citoyenne-5-480.jpeg  480w,
+                    ./chapter-2/citoyenne-5-960.jpeg  960w,
+                    ./chapter-2/citoyenne-5.jpeg     1600w
+                  "
+                  sizes="(max-width: 900px) 100vw, 600px"
+                />
+              </div>
+            </div>
+          </div>
         </section>
       </section>
     </section>
 
-    <section id="ici-se-prepare-l-avenir">
-      <h2>Limours ici se prépare l'avenir</h2>
+    <section id="ici-se-prepare-l-avenir" class="chapter-3">
+      <section class="chapter">
+        <div class="chapter-background">
+          <img
+            src="./chapter-3/title.jpg"
+            srcset="
+              ./chapter-3/title-480.jpg  480w,
+              ./chapter-3/title-960.jpg  960w,
+              ./chapter-3/title.jpg     2720w
+            "
+            sizes="50vw"
+          />
+        </div>
 
-      <p>
-        L’administration d’une commune ne se limite pas à la gestion du
-        quotidien. Elle s’inscrit dans un contexte complexe marqué par des
-        évolutions géopolitiques, sociales, économiques et environnementales,
-        ainsi que par des contraintes administratives et budgétaires. Face à ces
-        enjeux, nous devons faire preuve de prospective et d’anticipation pour
-        répondre aux besoins de la population.
-      </p>
+        <h2 class="chapter-title">
+          <strong>Limours</strong> ici se prépare l'avenir
+        </h2>
+
+        <p class="chapter-description">
+          L'administration d'une commune ne se limite pas à la gestion du
+          quotidien. Elle s'inscrit dans un contexte complexe marqué par des
+          évolutions géopolitiques, sociales, économiques et environnementales,
+          ainsi que par des contraintes administratives et budgétaires. Face à
+          ces enjeux, nous devons faire preuve de prospective et d'anticipation
+          pour répondre aux besoins de la population.
+        </p>
+      </section>
 
       <section id="acces-aux-soins-continuum-de-sante">
-        <h3>Accès aux soins, continuum de santé</h3>
+        <h3>Accès aux soins, <span>continuum de santé</span></h3>
 
-        <p>
-          Depuis ces dernières années, nous devons faire face à l’<strong
-            >abandon d’une politique structurante de la part de l’État en
-            matière de santé de proximité</strong
-          >
-          et à une pénurie grandissante de médecins. Palliant ce manque, la
-          commune a anticipé cette situation en inaugurant le 14 octobre 2023,
-          la Maison de Santé Pluriprofessionnelle (MSP).
-        </p>
+        <div class="sante-grid">
+          <div class="sante-text">
+            <p>
+              Depuis ces dernières années, nous devons faire face à l'<strong
+                >abandon d'une politique structurante de la part de l'État en
+                matière de santé de proximité</strong
+              >
+              et à une pénurie grandissante de médecins. Palliant ce manque, la
+              commune a anticipé cette situation en inaugurant le 14 octobre
+              2023, la Maison de Santé Pluriprofessionnelle (MSP).
+            </p>
 
-        <p>
-          Même si la santé ne relève pas de son champ de compétence, l’équipe
-          Aimons Limours veillera de continuer à garantir à chaque limourien un
-          accès au soin de qualité.
-        </p>
+            <p>
+              Même si la santé ne relève pas de son champ de compétence,
+              l'équipe Aimons Limours veillera de continuer à garantir à chaque
+              limourien un accès au soin de qualité.
+            </p>
 
-        <p>
-          La Maison de Santé Pluriprofessionnelle, le Centre hospitalier de
-          Bligny ainsi que le nouveau Groupe Hospitalier du plateau de Saclay,
-          constitue les trois piliers complémentaires d’un continuum de santé
-          permettant de
-          <strong>proposer à la population une offre de soin adaptée.</strong>
-        </p>
+            <p>
+              La Maison de Santé Pluriprofessionnelle, le Centre hospitalier de
+              Bligny ainsi que le nouveau Groupe Hospitalier du plateau de
+              Saclay, constitue les trois piliers complémentaires d'un continuum
+              de santé permettant de
+              <strong
+                >proposer à la population une offre de soin adaptée.</strong
+              >
+            </p>
 
-        <p>
-          Nous continuerons d’agir également comme relais et facilitateur auprès
-          des acteurs locaux. En renforçant les partenariats entre
-          professionnels médicaux, paramédicaux et associatifs, l’équipe Aimons
-          Limours contribuera à une meilleure connaissance de l’offre de soins
-          et développera des actions de prévention avec comme maître mot :
-          <strong>mieux vaut prévenir que guérir !</strong>
-        </p>
+            <p>
+              Nous continuerons d'agir également comme relais et facilitateur
+              auprès des acteurs locaux. En renforçant les partenariats entre
+              professionnels médicaux, paramédicaux et associatifs, l'équipe
+              Aimons Limours contribuera à une meilleure connaissance de l'offre
+              de soins et développera des actions de prévention avec comme
+              maître mot :
+              <strong>mieux vaut prévenir que guérir !</strong>
+            </p>
+          </div>
+
+          <div class="sante-images">
+            <!-- images à venir -->
+          </div>
+        </div>
       </section>
 
       <section id="securite">
         <h3>Sécurité</h3>
 
-        <p>
-          Ville-centre d’un bassin de vie de près de 30 000 habitants,
-          correspondant au territoire de la CCPL, Limours conserve
-          <strong
-            >un cadre de vie reconnu pour son calme et son caractère
-            paisible.</strong
-          >
-        </p>
+        <div class="securite-grid">
+          <div class="securite-text">
+            <p>
+              Ville-centre d'un bassin de vie de près de 30 000 habitants,
+              correspondant au territoire de la CCPL, Limours conserve
+              <strong
+                >un cadre de vie reconnu pour son calme et son caractère
+                paisible.</strong
+              >
+            </p>
 
-        <p>
-          Pour autant, cette tranquillité n’exclut pas l’existence de faits de
-          délinquance, tels que des cambriolages, des vols ou des incivilités.
-        </p>
+            <p>
+              Pour autant, cette tranquillité n'exclut pas l'existence de faits
+              de délinquance, tels que des cambriolages, des vols ou des
+              incivilités.
+            </p>
 
-        <p>
-          Consciente de ces enjeux,
-          <strong
-            >l’équipe Aimons Limours développera l’action coordonnée et efficace
-            menée ces dernières années</strong
-          >. En effet, le partenariat étroit entre le groupement de gendarmerie
-          de l’arrondissement de Palaiseau, la brigade de Limours (inaugurée en
-          2006) et les services municipaux (notamment son Agent de Surveillance
-          de la Voie Publique — ASVP) constitue un atout essentiel pour la
-          sécurité de notre commune.
-        </p>
+            <p>
+              Consciente de ces enjeux,
+              <strong
+                >l'équipe Aimons Limours développera l'action coordonnée et
+                efficace menée ces dernières années</strong
+              >. En effet, le partenariat étroit entre le groupement de
+              gendarmerie de l'arrondissement de Palaiseau, la brigade de
+              Limours (inaugurée en 2006) et les services municipaux (notamment
+              son Agent de Surveillance de la Voie Publique — ASVP) constitue un
+              atout essentiel pour la sécurité de notre commune.
+            </p>
+          </div>
+
+          <div class="securite-images">
+            <img
+              src="./chapter-3/securite-1.jpeg"
+              alt="Véhicule de sécurité"
+              srcset="
+                ./chapter-3/securite-1-480.jpeg  480w,
+                ./chapter-3/securite-1-960.jpeg  960w,
+                ./chapter-3/securite-1.jpeg     1200w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <img
+              src="./chapter-3/securite-2.jpeg"
+              alt="Police municipale de Limours"
+              srcset="
+                ./chapter-3/securite-2-480.jpeg  480w,
+                ./chapter-3/securite-2-960.jpeg  960w,
+                ./chapter-3/securite-2.jpeg     2048w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="prevention-des-risques">
-        <h3>Prévention des risques</h3>
+        <h3>Prévention <span>des risques</span></h3>
 
-        <p>
-          Si le changement climatique accélère le rythme des catastrophes, il
-          convient de se prémunir pour tenter de les anticiper. Les inondations
-          de ruissellement ayant frappé la commune les 9 et 17 octobre 2024,
-          sont des exemples encore douloureux.
-        </p>
+        <div class="risques-grid">
+          <div class="risques-text">
+            <p>
+              Si le changement climatique accélère le rythme des catastrophes,
+              il convient de se prémunir pour tenter de les anticiper. Les
+              inondations de ruissellement ayant frappé la commune les 9 et 17
+              octobre 2024, sont des exemples encore douloureux.
+            </p>
 
-        <p>
-          Devant l’ampleur de ces phénomènes, ce n’est qu’en partenariat avec
-          les différents acteurs institutionnels (État, syndicat hydraulique,
-          services déconcentrés) que la commune peut déployer des efforts
-          soutenus pour répondre efficacement à ces risques naturels
-        </p>
+            <p>
+              Devant l'ampleur de ces phénomènes, ce n'est qu'en partenariat
+              avec les différents acteurs institutionnels (État, syndicat
+              hydraulique, services déconcentrés) que la commune peut déployer
+              des efforts soutenus pour répondre efficacement à ces risques
+              naturels.
+            </p>
 
-        <p>
-          Le Plan Communal de Sauvegarde (PCS), le Document d’Information
-          Communal sur les Risques Majeurs (DICRIM) et le futur Plan de
-          Prévention des Risques des Inondations (PPRI), qui devrait être
-          produit durant le premier semestre par la 2026 par la Préfecture,
-          constituent
-          <strong
-            >des outils essentiels et incontournables pour permettre à la
-            commune de faire face aux catastrophes, malheureusement toujours
-            possibles.
-          </strong>
-        </p>
+            <p>
+              Le Plan Communal de Sauvegarde (PCS), le Document d'Information
+              Communal sur les Risques Majeurs (DICRIM) et le futur Plan de
+              Prévention des Risques des Inondations (PPRI), qui devrait être
+              produit durant le premier semestre 2026 par la Préfecture,
+              constituent
+              <strong
+                >des outils essentiels et incontournables pour permettre à la
+                commune de faire face aux catastrophes, malheureusement toujours
+                possibles.</strong
+              >
+            </p>
 
-        <p>
-          Nous poursuivrons
-          <strong>les travaux d’aménagement de la Prédecelle</strong> engagés en
-          partenariat avec le Syndicat de l’Orge (SYORP) et chaque membre de
-          l’équipe Aimons Limours, restera pleinement mobilisé sur
-          <strong>la prévention et la sensibilisation</strong>, afin de limiter
-          les risques et d’éviter que de tels dégâts ne se reproduisent.
-        </p>
+            <p>
+              Nous poursuivrons
+              <strong>les travaux d'aménagement de la Prédecelle</strong>
+              engagés en partenariat avec le Syndicat de l'Orge (SYORP) et
+              chaque membre de l'équipe Aimons Limours, restera pleinement
+              mobilisé sur
+              <strong>la prévention et la sensibilisation</strong>, afin de
+              limiter les risques et d'éviter que de tels dégâts ne se
+              reproduisent.
+            </p>
 
-        <p>
-          Protéger les biens et les personnes, adopter des comportements
-          citoyens, se prémunir contre les catastrophes naturelles, être
-          vigilant les uns envers les autres, sont les prérequis pour que
-          Limours reste une ville où il fait bon vivre.
-        </p>
+            <p>
+              Protéger les biens et les personnes, adopter des comportements
+              citoyens, se prémunir contre les catastrophes naturelles, être
+              vigilant les uns envers les autres, sont les prérequis pour que
+              Limours reste une ville où il fait bon vivre.
+            </p>
+          </div>
+
+          <div class="risques-images">
+            <img
+              src="./chapter-3/risques-1.jpg"
+              alt="Inondations d'octobre 2024"
+              srcset="
+                ./chapter-3/risques-1-480.jpg  480w,
+                ./chapter-3/risques-1-960.jpg  960w,
+                ./chapter-3/risques-1.jpg     1600w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <figure>
+              <img
+                src="./chapter-3/risques-2.jpeg"
+                alt="Aménagement des bords de la Prédecelle"
+                srcset="
+                  ./chapter-3/risques-2-480.jpeg  480w,
+                  ./chapter-3/risques-2-960.jpeg  960w,
+                  ./chapter-3/risques-2.jpeg     1200w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <figcaption>Aménagement des bords de la Prédecelle</figcaption>
+            </figure>
+            <img
+              src="./chapter-3/risques-3.jpeg"
+              alt="La Prédecelle"
+              srcset="
+                ./chapter-3/risques-3-480.jpeg  480w,
+                ./chapter-3/risques-3-960.jpeg  960w,
+                ./chapter-3/risques-3.jpeg     1200w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="nouvelles-mobilites-mobilites-douces">
-        <h3>Nouvelles mobilités, mobilités douces</h3>
+        <h3>Nouvelles mobilités, <span>mobilités douces</span></h3>
 
-        <p>
-          Compétence Régionale et Intercommunale, la thématique transport reste
-          excessivement délicate à gérer et réclame la plus grande humilité face
-          à l’ampleur de la tâche.
-        </p>
+        <div class="mobilites-grid">
+          <div class="mobilites-text">
+            <p>
+              Compétence Régionale et Intercommunale, la thématique transport
+              reste excessivement délicate à gérer et réclame la plus grande
+              humilité face à l'ampleur de la tâche.
+            </p>
 
-        <p>
-          En effet, étant donné la localisation géographique de Limours,
-          garantie de notre tranquillité, la voiture individuelle constitue
-          l’écrasante majorité des moyens de déplacements quotidiens, avec pour
-          principale conséquence un réseau totalement engorgé aux heures de
-          pointe alors qu’il est parfaitement adapté en journée.
-        </p>
+            <p>
+              En effet, étant donné la localisation géographique de Limours,
+              garantie de notre tranquillité, la voiture individuelle constitue
+              l'écrasante majorité des moyens de déplacements quotidiens, avec
+              pour principale conséquence un réseau totalement engorgé aux
+              heures de pointe alors qu'il est parfaitement adapté en journée.
+            </p>
 
-        <p>
-          Nous travaillerons activement de concert avec la CCPL et Ile de France
-          Mobilités afin de maintenir voire développer l’offre du Transport à la
-          Demande (TAD) qui rencontre, depuis sa mise en place en septembre
-          2020, un véritable succès.
-        </p>
+            <p>
+              Nous travaillerons activement de concert avec la CCPL et Ile de
+              France Mobilités afin de maintenir voire développer l'offre du
+              Transport à la Demande (TAD) qui rencontre, depuis sa mise en
+              place en septembre 2020, un véritable succès.
+            </p>
 
-        <p>
-          La marche, le vélo, la mono-roue ou la trottinette ainsi que
-          <strong
-            >les autres modes de déplacement actuels sont bénéfiques à la fois
-            pour la santé, l’environnement et la qualité de vie</strong
-          >. Leur développement repose cependant sur des aménagements
-          structurants, coûteux, nécessitant du temps, de la concertation et une
-          vision à long terme.
-        </p>
+            <p>
+              La marche, le vélo, la mono-roue ou la trottinette ainsi que
+              <strong
+                >les autres modes de déplacement actuels sont bénéfiques à la
+                fois pour la santé, l'environnement et la qualité de vie</strong
+              >. Leur développement repose cependant sur des aménagements
+              structurants, coûteux, nécessitant du temps, de la concertation et
+              une vision à long terme.
+            </p>
 
-        <p>
-          L’équipe Aimons Limours, poursuivra et renforcera une politique
-          cyclable cohérente, en lien étroit avec les communes voisines et la
-          Communauté de communes du Pays de Limours.
-        </p>
+            <p>
+              L'équipe Aimons Limours, poursuivra et renforcera une politique
+              cyclable cohérente, en lien étroit avec les communes voisines et
+              la Communauté de communes du Pays de Limours.
+            </p>
 
-        <p>
-          À plus long terme, d’autres liaisons devront être étudiées et
-          inscrites dans un véritable Plan Vélo réaliste, afin de répondre aux
-          besoins de déplacements du quotidien et faire de la bicyclette une
-          alternative crédible, sûre et accessible à tous.
-        </p>
+            <p>
+              À plus long terme, d'autres liaisons devront être étudiées et
+              inscrites dans un véritable Plan Vélo réaliste, afin de répondre
+              aux besoins de déplacements du quotidien et faire de la bicyclette
+              une alternative crédible, sûre et accessible à tous.
+            </p>
+          </div>
+
+          <div class="mobilites-images">
+            <img
+              src="./chapter-3/mobilites-4.jpg"
+              alt="Fontaine et mobilité douce"
+            />
+            <div class="mobilites-images-row">
+              <img
+                src="./chapter-3/mobilites-1.jpg"
+                alt="Piste cyclable"
+                srcset="
+                  ./chapter-3/mobilites-1-480.jpg 480w,
+                  ./chapter-3/mobilites-1.jpg     755w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-3/mobilites-2.jpg"
+                alt="Aménagement cyclable"
+                srcset="
+                  ./chapter-3/mobilites-2-480.jpg 480w,
+                  ./chapter-3/mobilites-2.jpg     750w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+            </div>
+            <img
+              src="./chapter-3/mobilites-3.jpeg"
+              alt="Cyclistes à Limours"
+              srcset="
+                ./chapter-3/mobilites-3-480.jpeg  480w,
+                ./chapter-3/mobilites-3-960.jpeg  960w,
+                ./chapter-3/mobilites-3.jpeg     1536w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="transition-energetique">
-        <h3>Transition énergétique</h3>
+        <h3>Transition <span>énergétique</span></h3>
 
-        <p>La transition énergétique est déjà une réalité à Limours.</p>
+        <div class="energie-grid">
+          <div class="energie-text">
+            <p>La transition énergétique est déjà une réalité à Limours.</p>
 
-        <p>
-          En avance de phase dès 2016, la commune s’est très rapidement engagée
-          sur la voie de la maitrise de ses consommations, préalable
-          indispensable à toute action.
-        </p>
+            <p>
+              En avance de phase dès 2016, la commune s'est très rapidement
+              engagée sur la voie de la maitrise de ses consommations, préalable
+              indispensable à toute action.
+            </p>
 
-        <p>
-          De l’optimisation de la consommation des fluides publics (eau, gaz,
-          électricité) en passant par la rénovation énergétique des
-          infrastructures communales, nous nous attacherons à suivre la
-          programmation pluriannuelle visant à adapter nos différents réseaux
-          afin de valoriser
-          <strong
-            >les comportements vertueux et d’économiser des crédits budgétaires
-            : rénover, réguler, superviser et innover pour mieux optimiser.
-            Image réservoir de récupération d’eau.</strong
-          >
-        </p>
+            <p>
+              De l'optimisation de la consommation des fluides publics (eau,
+              gaz, électricité) en passant par la rénovation énergétique des
+              infrastructures communales, nous nous attacherons à suivre la
+              programmation pluriannuelle visant à adapter nos différents
+              réseaux afin de valoriser
+              <strong
+                >les comportements vertueux et d'économiser des crédits
+                budgétaires : rénover, réguler, superviser et innover pour mieux
+                optimiser.</strong
+              >
+            </p>
 
-        <p>
-          Grâce à la réserve foncière communale ou sur des surfaces de toiture
-          déjà existantes, nous étudierons les possibilités et les faisabilités
-          d’implantation de panneaux photovoltaïques en vue d’une
-          autoconsommation collective.
-          <strong
-            >Cette possibilité pourrait bénéficier à l’ensemble des
-            limouriens</strong
-          >
-          en diminuant les dépenses énergétiques de la commune.
-        </p>
+            <p>
+              Grâce à la réserve foncière communale ou sur des surfaces de
+              toiture déjà existantes, nous étudierons les possibilités et les
+              faisabilités d'implantation de panneaux photovoltaïques en vue
+              d'une autoconsommation collective.
+              <strong
+                >Cette possibilité pourrait bénéficier à l'ensemble des
+                limouriens</strong
+              >
+              en diminuant les dépenses énergétiques de la commune.
+            </p>
 
-        <p>
-          Parce que
-          <strong>le développement durable est l’affaire de tous</strong>, la
-          municipalité se fera également le relais des acteurs œuvrant dans la
-          transition énergétique auprès des particuliers.
-        </p>
+            <p>
+              Parce que
+              <strong>le développement durable est l'affaire de tous</strong>,
+              la municipalité se fera également le relais des acteurs œuvrant
+              dans la transition énergétique auprès des particuliers.
+            </p>
 
-        <p>
-          L’équipe Aimons Limours veillera à maintenir
-          <strong
-            >son statut de laboratoire d’usages pour les nouvelles
-            technologies</strong
-          >
-          au service de l’efficacité énergétique.
-        </p>
+            <p>
+              L'équipe Aimons Limours veillera à maintenir
+              <strong
+                >son statut de laboratoire d'usages pour les nouvelles
+                technologies</strong
+              >
+              au service de l'efficacité énergétique.
+            </p>
 
-        <p>
-          Ce positionnement permettra de tester, en conditions réelles, des
-          solutions innovantes et de nouveaux usages, d’en évaluer les bénéfices
-          techniques, énergétiques et économiques, afin d’orienter les choix
-          futurs vers des dispositifs performants, adaptés aux besoins des
-          bâtiments et des citoyens.
-        </p>
+            <p>
+              Ce positionnement permettra de tester, en conditions réelles, des
+              solutions innovantes et de nouveaux usages, d'en évaluer les
+              bénéfices techniques, énergétiques et économiques, afin d'orienter
+              les choix futurs vers des dispositifs performants, adaptés aux
+              besoins des bâtiments et des citoyens.
+            </p>
+          </div>
+
+          <div class="energie-images">
+            <img
+              src="./chapter-3/energie-1.jpg"
+              alt="Panneaux photovoltaïques"
+              srcset="
+                ./chapter-3/energie-1-480.jpg  480w,
+                ./chapter-3/energie-1-960.jpg  960w,
+                ./chapter-3/energie-1.jpg     1024w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="prendre-le-virage-numerique">
-        <h3>Prendre le virage numérique</h3>
+        <h3>Prendre le virage <span>numérique</span></h3>
 
-        <p>
-          Au cours de la dernière décennie, Limours a su prendre le virage du
-          numérique en modernisant ses outils et ses pratiques.
-          <strong
-            >Ces évolutions ont permis de simplifier les démarches, d’améliorer
-            l’efficacité de l’action publique et de renforcer l’accès aux
-            services municipaux.</strong
-          >
-        </p>
+        <div class="numerique-grid">
+          <div class="numerique-text">
+            <p>
+              Au cours de la dernière décennie, Limours a su prendre le virage
+              du numérique en modernisant ses outils et ses pratiques.
+              <strong
+                >Ces évolutions ont permis de simplifier les démarches,
+                d'améliorer l'efficacité de l'action publique et de renforcer
+                l'accès aux services municipaux.</strong
+              >
+            </p>
 
-        <p>
-          La nouvelle étape doit être celle d’un numérique plus utile, plus
-          lisible et plus accessible à tous. Cela passe par la refonte complète
-          du site internet de la commune, le développement de services en ligne
-          adaptés ainsi que de nouveaux canaux de communication municipale
-          conformes aux usages actuels.
-        </p>
+            <p>
+              La nouvelle étape doit être celle d'un numérique plus utile, plus
+              lisible et plus accessible à tous. Cela passe par la refonte
+              complète du site internet de la commune, le développement de
+              services en ligne adaptés ainsi que de nouveaux canaux de
+              communication municipale conformes aux usages actuels.
+            </p>
 
-        <p>
-          Dans ce processus, l’intégration de solutions d’intelligence
-          artificielle
-          <strong
-            >s’inscrira avant tout comme un outil d’appui permettant de rendre
-            un meilleur service public</strong
-          >. Elle visera ainsi à accompagner les agents dans leurs missions
-          quotidiennes en améliorant l’efficacité des processus, en réduisant le
-          temps consacré à certaines tâches répétitives et en facilitant l’accès
-          à l’information.
-        </p>
+            <p>
+              Dans ce processus, l'intégration de solutions d'intelligence
+              artificielle
+              <strong
+                >s'inscrira avant tout comme un outil d'appui permettant de
+                rendre un meilleur service public</strong
+              >. Elle visera ainsi à accompagner les agents dans leurs missions
+              quotidiennes en améliorant l'efficacité des processus, en
+              réduisant le temps consacré à certaines tâches répétitives et en
+              facilitant l'accès à l'information.
+            </p>
 
-        <p>
-          Parce que la transition numérique ne doit laisser personne de côté,
-          <strong>la commune accompagnera les habitants</strong> qui en ont le
-          plus besoin, <strong>afin de réduire la fracture numérique</strong> et
-          garantir un accès équitable aux services publics.
-        </p>
+            <p>
+              Parce que la transition numérique ne doit laisser personne de
+              côté,
+              <strong>la commune accompagnera les habitants</strong> qui en ont
+              le plus besoin,
+              <strong>afin de réduire la fracture numérique</strong> et garantir
+              un accès équitable aux services publics.
+            </p>
 
-        <p>
-          <strong
-            >Le numérique et les nouvelles technologies ne doivent pas remplacer
-            l’humain</strong
-          >, mais le soutenir dans ses missions. C’est ce que nous défendrons à
-          travers la mise en place d’actions concrètes en veillant à piloter son
-          utilisation. Il restera un outil au service du citoyen et de l’intérêt
-          général.
-        </p>
+            <p>
+              <strong
+                >Le numérique et les nouvelles technologies ne doivent pas
+                remplacer l'humain</strong
+              >, mais le soutenir dans ses missions. C'est ce que nous
+              défendrons à travers la mise en place d'actions concrètes en
+              veillant à piloter son utilisation. Il restera un outil au service
+              du citoyen et de l'intérêt général.
+            </p>
+          </div>
+
+          <div class="numerique-images">
+            <img
+              src="./chapter-3/numerique-2.png"
+              alt="Intelligence artificielle"
+              srcset="
+                ./chapter-3/numerique-2-480.png  480w,
+                ./chapter-3/numerique-2-960.png  960w,
+                ./chapter-3/numerique-2.png     1024w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <img
+              src="./chapter-3/numerique-1.png"
+              alt="Site internet de Limours"
+              srcset="
+                ./chapter-3/numerique-1-480.png  480w,
+                ./chapter-3/numerique-1-960.png  960w,
+                ./chapter-3/numerique-1.png     1531w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="dynamisme-economique">
-        <h3>Dynamisme économique</h3>
+        <h3>Dynamisme <span>économique</span></h3>
 
-        <p>
-          Même si ma compétence développement économique échoie à la CCPL, la
-          commune restera un acteur majeur dans le soutien à l’activité
-          économique locale, qu’il s’agisse de la très haute technologie avec
-          Thalès, du commerce de proximité, de la grande distribution sans
-          oublier l’indispensable activité agricole.
-        </p>
+        <div class="economie-grid">
+          <div class="economie-text">
+            <p>
+              Même si la compétence développement économique échoie à la CCPL,
+              la commune restera un acteur majeur dans le soutien à l'activité
+              économique locale, qu'il s'agisse de la très haute technologie
+              avec Thalès, du commerce de proximité, de la grande distribution
+              sans oublier l'indispensable activité agricole.
+            </p>
 
-        <p>
-          Les atouts géographiques et organisationnels que la commune a su
-          mettre en valeur depuis 2001, confèrent à Limours
-          <strong
-            >une diversité et une attractivité économique importante.</strong
-          >
-        </p>
+            <p>
+              Les atouts géographiques et organisationnels que la commune a su
+              mettre en valeur depuis 2001, confèrent à Limours
+              <strong
+                >une diversité et une attractivité économique
+                importante.</strong
+              >
+            </p>
 
-        <p>
-          Respectant nos orientations de développement durable, nous nous
-          inscrivons dans une démarche de soutien à l’économie et à la
-          consommation locale au travers d’actions concrètes :
-        </p>
+            <p>
+              Respectant nos orientations de développement durable, nous nous
+              inscrivons dans une démarche de soutien à l'économie et à la
+              consommation locale au travers d'actions concrètes :
+            </p>
 
-        <ul>
-          <li>
-            Par l’accompagnement au développement de l’attractivité du commerce
-            du Centre-Ville, des Arcades et du quartier Est.
-          </li>
+            <ul>
+              <li>
+                Par l'accompagnement au développement de l'attractivité du
+                commerce du Centre-Ville, des Arcades et du quartier Est.
+              </li>
 
-          <li>
-            En facilitant la consommation locale et en mettant en valeur l’offre
-            commerciale. C’est finalement toute la collectivité qui bénéficie de
-            ces actions concrètes, du consommateur à l’entreprise en passant par
-            la commune.
-          </li>
+              <li>
+                En facilitant la consommation locale et en mettant en valeur
+                l'offre commerciale. C'est finalement toute la collectivité qui
+                bénéficie de ces actions concrètes, du consommateur à
+                l'entreprise en passant par la commune.
+              </li>
 
-          <li>
-            En soutenant activement les initiatives et les productions agricoles
-            pour renforcer notre souveraineté alimentaire et promouvoir une
-            alimentation saine.
-          </li>
+              <li>
+                En soutenant activement les initiatives et les productions
+                agricoles pour renforcer notre souveraineté alimentaire et
+                promouvoir une alimentation saine.
+              </li>
 
-          <li>
-            En continuant d’entretenir une relation étroite avec la société
-            délégataire du marché forain, qui offre aux Limouriens un pôle
-            commercial très prisé deux matinées par semaine.
-          </li>
+              <li>
+                En continuant d'entretenir une relation étroite avec la société
+                délégataire du marché forain, qui offre aux Limouriens un pôle
+                commercial très prisé deux matinées par semaine.
+              </li>
 
-          <li>
-            Nous veillerons à ce que la Communauté de communes remplisse ses
-            engagements de réhabilitation de la zone artisanale intercommunale
-            du 8 mai 1945.
-          </li>
-        </ul>
+              <li>
+                Nous veillerons à ce que la Communauté de communes remplisse ses
+                engagements de réhabilitation de la zone artisanale
+                intercommunale du 8 mai 1945.
+              </li>
+            </ul>
 
-        <p>
-          Alors que Limours se situe à quelques encablures du pôle scientifique
-          international du plateau de Saclay, l’équipe Aimons Limours
-          s’attachera à participer et être partie intégrante de ce territoire
-          d’innovation.
-        </p>
+            <p>
+              Alors que Limours se situe à quelques encablures du pôle
+              scientifique international du plateau de Saclay, l'équipe Aimons
+              Limours s'attachera à participer et être partie intégrante de ce
+              territoire d'innovation.
+            </p>
+          </div>
+
+          <div class="economie-images">
+            <img
+              src="./chapter-3/economie-1.jpg"
+              alt="Marché de Limours"
+              srcset="
+                ./chapter-3/economie-1-480.jpg  480w,
+                ./chapter-3/economie-1-960.jpg  960w,
+                ./chapter-3/economie-1.jpg     1134w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+            <div class="economie-images-row">
+              <img
+                src="./chapter-3/economie-2.jpeg"
+                alt="Commerçants de Limours"
+                srcset="
+                  ./chapter-3/economie-2-480.jpeg  480w,
+                  ./chapter-3/economie-2-960.jpeg  960w,
+                  ./chapter-3/economie-2.jpeg     1200w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+              <img
+                src="./chapter-3/economie-3.jpeg"
+                alt="Miel local"
+                srcset="
+                  ./chapter-3/economie-3-480.jpeg  480w,
+                  ./chapter-3/economie-3-960.jpeg  960w,
+                  ./chapter-3/economie-3.jpeg     1200w
+                "
+                sizes="(max-width: 900px) 100vw, 600px"
+              />
+            </div>
+            <img
+              src="./chapter-3/economie-4.jpeg"
+              alt="Commerce à Limours"
+              srcset="
+                ./chapter-3/economie-4-480.jpeg  480w,
+                ./chapter-3/economie-4-960.jpeg  960w,
+                ./chapter-3/economie-4.jpeg     1600w
+              "
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="gestion-prospective-et-maitrisee">
-        <h3>Gestion prospective et maîtrisée</h3>
+        <h3>Gestion prospective <span>et maîtrisée</span></h3>
 
-        <p>
-          Depuis plusieurs années, la France est rentrée dans une période de
-          chaos budgétaire. Un ancien ministre des Finances, tristement célèbre,
-          avait même accusé pour partie les communes d’en être responsable.
-        </p>
+        <div class="gestion-intro">
+          <aside class="gestion-sidebar">
+            <p>
+              La maîtrise des comptes publics restera le socle de notre action,
+              au service des projets et dans l'intérêt général.
+            </p>
+          </aside>
 
-        <p>
-          Cette situation est purement intolérable ! Depuis 25 ans, la commune a
-          mis en place et suivi un plan prospectif financier équilibré à cinq
-          ans. Cette démarche a permis, nonobstant une conjoncture très tendue,
-          la réalisation d’un nombre conséquent d’équipements utiles et
-          fonctionnels sans augmentation des impôts locaux.
-        </p>
+          <div class="gestion-intro-text">
+            <p>
+              Depuis plusieurs années, la France est rentrée dans une période de
+              chaos budgétaire. Un ancien ministre des Finances, tristement
+              célèbre, avait même accusé pour partie les communes d'en être
+              responsable.
+            </p>
 
-        <p>
-          La gestion financière n’est pas une fin en soi.
-          <strong
-            >Mais dans l’administration d’une collectivité, il n’est pas de
-            bonnes politiques publiques sans une gestion financière
-            saine.</strong
-          >
-        </p>
+            <p>
+              Cette situation est purement intolérable ! Depuis 25 ans, la
+              commune a mis en place et suivi un plan prospectif financier
+              équilibré à cinq ans. Cette démarche a permis, nonobstant une
+              conjoncture très tendue, la réalisation d'un nombre conséquent
+              d'équipements utiles et fonctionnels sans augmentation des impôts
+              locaux.
+            </p>
 
-        <p>
-          C’est cette exigence de rigueur et d’anticipation que nous voulons
-          poursuivre et renforcer pour l’avenir, afin de garantir une gestion
-          efficace et responsable des finances communales.
-        </p>
+            <p>
+              La gestion financière n'est pas une fin en soi.
+              <strong
+                >Mais dans l'administration d'une collectivité, il n'est pas de
+                bonnes politiques publiques sans une gestion financière
+                saine.</strong
+              >
+            </p>
 
-        <section>
-          <h4>Baisse de la dotation globale de fonctionnement (en K€)</h4>
+            <p>
+              C'est cette exigence de rigueur et d'anticipation que nous voulons
+              poursuivre et renforcer pour l'avenir, afin de garantir une
+              gestion efficace et responsable des finances communales.
+            </p>
+          </div>
+        </div>
 
-          <p>
-            La baisse de la Dotation Globale de Fonctionnement (DGF), la
-            principale dotation de fonctionnement de l’État aux collectivités
-            territoriales, n’a cessé de baisser ces dernières années. Cela va
-            s’accentuer au gré du désengagement financier de l’État.
-          </p>
-        </section>
+        <div class="gestion-graphiques">
+          <section class="gestion-graphique">
+            <h4>Baisse de la dotation globale de fonctionnement (en K€)</h4>
 
-        <section>
-          <h4>Extinction de la dette (en K€)</h4>
+            <img
+              src="./chapter-3/gestion-dgf.jpg"
+              alt="Graphique de la baisse de la DGF"
+              srcset="
+                ./chapter-3/gestion-dgf-480.jpg  480w,
+                ./chapter-3/gestion-dgf-960.jpg  960w,
+                ./chapter-3/gestion-dgf.jpg     1002w
+              "
+              sizes="(max-width: 900px) 100vw, 50vw"
+            />
 
-          <p>
-            Cette méthode s’incarne par le développement de principes simples et
-            éprouvés dans le temps :
-          </p>
+            <p>
+              La baisse de la Dotation Globale de Fonctionnement (DGF), la
+              principale dotation de fonctionnement de l'État aux collectivités
+              territoriales, n'a cessé de baisser ces dernières années. Cela va
+              s'accentuer au gré du désengagement financier de l'État.
+            </p>
+          </section>
 
-          <ul>
-            <li>
-              Recherche constante d’une optimisation des dépenses de
-              fonctionnement.
-            </li>
+          <section class="gestion-graphique">
+            <h4>Extinction de la dette (en K€)</h4>
 
-            <li>Priorité donnée à l’autofinancement.</li>
-            <li>Anticipation et programmation pluriannuelle.</li>
+            <img
+              src="./chapter-3/gestion-dette.jpg"
+              alt="Graphique d'extinction de la dette"
+              srcset="
+                ./chapter-3/gestion-dette-480.jpg  480w,
+                ./chapter-3/gestion-dette-960.jpg  960w,
+                ./chapter-3/gestion-dette.jpg     1270w
+              "
+              sizes="(max-width: 900px) 100vw, 50vw"
+            />
 
-            <li>
-              Recherche systématique de subventions et de nouvelles recettes.
-            </li>
+            <p>
+              Cette méthode s'incarne par le développement de principes simples
+              et éprouvés dans le temps :
+            </p>
 
-            <li>Renégociation et maîtrise constante de la dette.</li>
+            <ul>
+              <li>
+                Recherche constante d'une optimisation des dépenses de
+                fonctionnement.
+              </li>
 
-            <li>
-              Mutualisation en partenariat avec la Communauté de communes ou
-              directement avec des communes voisines.
-            </li>
-          </ul>
-        </section>
+              <li>Priorité donnée à l'autofinancement.</li>
+              <li>Anticipation et programmation pluriannuelle.</li>
+
+              <li>
+                Recherche systématique de subventions et de nouvelles recettes.
+              </li>
+
+              <li>Renégociation et maîtrise constante de la dette.</li>
+
+              <li>
+                Mutualisation en partenariat avec la Communauté de communes ou
+                directement avec des communes voisines.
+              </li>
+            </ul>
+          </section>
+        </div>
       </section>
     </section>
 

@@ -1,0 +1,794 @@
+.chapter-3 .chapter-title {
+  color: #72bcdf;
+}
+
+.chapter-3 .chapter-title strong {
+  -webkit-text-stroke: 2px #72bcdf;
+}
+
+.chapter-3 .chapter-description {
+  color: #72bcdf;
+}
+
+/* Accès aux soins, continuum de santé */
+
+#acces-aux-soins-continuum-de-sante {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+#acces-aux-soins-continuum-de-sante > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #72bcdf;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+#acces-aux-soins-continuum-de-sante > h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #9ed2e8;
+}
+
+.sante-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+}
+
+.sante-text {
+  font-size: 0.9rem;
+}
+
+.sante-text p {
+  margin-bottom: 1rem;
+}
+
+.sante-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sante-images img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+}
+
+.sante-images figure img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+}
+
+.sante-images figure figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #72bcdf;
+}
+
+@media (max-width: 900px) {
+  .sante-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  #acces-aux-soins-continuum-de-sante > h3 {
+    font-size: 1.8rem;
+  }
+
+  #acces-aux-soins-continuum-de-sante > h3 span {
+    font-size: 1.4rem;
+  }
+}
+
+/* Sécurité */
+
+#securite {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+#securite > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #72bcdf;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.securite-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 2rem;
+}
+
+.securite-images {
+  order: -1;
+}
+
+.securite-text {
+  font-size: 0.9rem;
+}
+
+.securite-text p {
+  margin-bottom: 1rem;
+}
+
+.securite-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.securite-images img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .securite-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .securite-images {
+    order: 0;
+    flex-direction: row;
+  }
+
+  .securite-images img {
+    flex: 1;
+    min-width: 0;
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  #securite > h3 {
+    font-size: 1.8rem;
+  }
+
+  .securite-images {
+    flex-direction: column;
+  }
+
+  .securite-images img {
+    max-height: 250px;
+  }
+}
+
+/* Prévention des risques */
+
+#prevention-des-risques {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+#prevention-des-risques > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #72bcdf;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+#prevention-des-risques > h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #9ed2e8;
+}
+
+.risques-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+}
+
+.risques-text {
+  font-size: 0.9rem;
+}
+
+.risques-text p {
+  margin-bottom: 1rem;
+}
+
+.risques-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.risques-images > img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  max-height: 180px;
+}
+
+.risques-images figure img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+}
+
+.risques-images figure figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #72bcdf;
+}
+
+@media (max-width: 900px) {
+  .risques-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .risques-images {
+    flex-direction: row;
+  }
+
+  .risques-images > img,
+  .risques-images figure {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .risques-images > img {
+    max-height: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  #prevention-des-risques > h3 {
+    font-size: 1.8rem;
+  }
+
+  #prevention-des-risques > h3 span {
+    font-size: 1.4rem;
+  }
+
+  .risques-images {
+    flex-direction: column;
+  }
+
+  .risques-images > img {
+    max-height: 200px;
+  }
+}
+
+/* Nouvelles mobilités, mobilités douces */
+
+#nouvelles-mobilites-mobilites-douces {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+#nouvelles-mobilites-mobilites-douces > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #72bcdf;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+#nouvelles-mobilites-mobilites-douces > h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #9ed2e8;
+}
+
+.mobilites-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 2rem;
+}
+
+.mobilites-images {
+  order: -1;
+}
+
+.mobilites-text {
+  font-size: 0.9rem;
+}
+
+.mobilites-text p {
+  margin-bottom: 1rem;
+}
+
+.mobilites-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mobilites-images > img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+.mobilites-images-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.mobilites-images-row img {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  max-height: 140px;
+}
+
+@media (max-width: 900px) {
+  .mobilites-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mobilites-images {
+    order: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .mobilites-images > img {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .mobilites-images-row {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #nouvelles-mobilites-mobilites-douces > h3 {
+    font-size: 1.8rem;
+  }
+
+  #nouvelles-mobilites-mobilites-douces > h3 span {
+    font-size: 1.4rem;
+  }
+
+  .mobilites-images {
+    flex-direction: column;
+  }
+
+  .mobilites-images-row {
+    flex-direction: column;
+  }
+
+  .mobilites-images > img {
+    max-height: 200px;
+  }
+}
+
+/* Transition énergétique */
+
+#transition-energetique {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+#transition-energetique > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #72bcdf;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+#transition-energetique > h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #9ed2e8;
+}
+
+.energie-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 2rem;
+}
+
+.energie-text {
+  font-size: 0.9rem;
+}
+
+.energie-text p {
+  margin-bottom: 1rem;
+}
+
+.energie-images {
+  align-self: center;
+}
+
+.energie-images img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .energie-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .energie-images img {
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  #transition-energetique > h3 {
+    font-size: 1.8rem;
+  }
+
+  #transition-energetique > h3 span {
+    font-size: 1.4rem;
+  }
+}
+
+/* Prendre le virage numérique */
+
+#prendre-le-virage-numerique {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+#prendre-le-virage-numerique > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #72bcdf;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+#prendre-le-virage-numerique > h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #9ed2e8;
+}
+
+.numerique-grid {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+}
+
+.numerique-images {
+  order: -1;
+}
+
+.numerique-text {
+  font-size: 0.9rem;
+}
+
+.numerique-text p {
+  margin-bottom: 1rem;
+}
+
+.numerique-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-self: center;
+}
+
+.numerique-images img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .numerique-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .numerique-images {
+    order: 0;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  #prendre-le-virage-numerique > h3 {
+    font-size: 1.8rem;
+  }
+
+  #prendre-le-virage-numerique > h3 span {
+    font-size: 1.4rem;
+  }
+}
+
+/* Dynamisme économique */
+
+#dynamisme-economique {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+#dynamisme-economique > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #72bcdf;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+#dynamisme-economique > h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #9ed2e8;
+}
+
+.economie-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+}
+
+.economie-text {
+  font-size: 0.9rem;
+}
+
+.economie-text p {
+  margin-bottom: 1rem;
+}
+
+.economie-text ul {
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  list-style: none;
+}
+
+.economie-text li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.economie-text li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 7px solid #72bcdf;
+}
+
+.economie-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.economie-images > img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  max-height: 180px;
+}
+
+.economie-images-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.economie-images-row img {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  max-height: 130px;
+}
+
+@media (max-width: 900px) {
+  .economie-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .economie-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .economie-images > img {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .economie-images-row {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #dynamisme-economique > h3 {
+    font-size: 1.8rem;
+  }
+
+  #dynamisme-economique > h3 span {
+    font-size: 1.4rem;
+  }
+
+  .economie-images {
+    flex-direction: column;
+  }
+
+  .economie-images-row {
+    flex-direction: column;
+  }
+
+  .economie-images > img {
+    max-height: 200px;
+  }
+
+  .economie-images-row img {
+    max-height: 200px;
+  }
+}
+
+/* Gestion prospective et maîtrisée */
+
+#gestion-prospective-et-maitrisee {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+#gestion-prospective-et-maitrisee > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #72bcdf;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+#gestion-prospective-et-maitrisee > h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #9ed2e8;
+}
+
+.gestion-intro {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.gestion-sidebar {
+  flex-shrink: 0;
+  width: 180px;
+  border-left: 3px solid #72bcdf;
+  padding-left: 1rem;
+}
+
+.gestion-sidebar p {
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 600;
+  color: #72bcdf;
+  line-height: 1.5;
+}
+
+.gestion-intro-text {
+  font-size: 0.9rem;
+}
+
+.gestion-intro-text p {
+  margin-bottom: 1rem;
+}
+
+.gestion-graphiques {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.gestion-graphique h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #72bcdf;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.gestion-graphique img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.gestion-graphique p {
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.gestion-graphique ul {
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+  list-style: none;
+}
+
+.gestion-graphique li {
+  margin-bottom: 0.4rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.gestion-graphique li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 7px solid #72bcdf;
+}
+
+@media (max-width: 900px) {
+  .gestion-intro {
+    flex-direction: column;
+  }
+
+  .gestion-sidebar {
+    width: auto;
+    border-left: none;
+    border-bottom: 3px solid #72bcdf;
+    padding-left: 0;
+    padding-bottom: 1rem;
+  }
+
+  .gestion-graphiques {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  #gestion-prospective-et-maitrisee > h3 {
+    font-size: 1.8rem;
+  }
+
+  #gestion-prospective-et-maitrisee > h3 span {
+    font-size: 1.4rem;
+  }
+}
