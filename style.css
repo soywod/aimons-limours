@@ -523,7 +523,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .urbanisme-images-row figcaption {
@@ -642,7 +641,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 @media (max-width: 600px) {
@@ -752,7 +750,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .patrimoine-reseaux-images {
@@ -764,7 +761,7 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 21 / 9;
+
   margin-bottom: 1.5rem;
 }
 
@@ -874,7 +871,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .education-hero {
@@ -1006,7 +1002,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 @media (max-width: 600px) {
@@ -1064,7 +1059,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .cohesion-images-row--2 {
@@ -1202,7 +1196,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 /* Séniors */
@@ -1224,7 +1217,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .seniors-images-row figcaption {
@@ -1287,7 +1279,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .citoyenne-images-row figcaption {
@@ -1367,7 +1358,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .sante-images-row figcaption {
@@ -1433,7 +1423,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 @media (max-width: 600px) {
@@ -1486,7 +1475,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .risques-images-row figcaption {
@@ -1556,7 +1544,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .mobilites-images-row--2 {
@@ -1619,7 +1606,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 @media (max-width: 600px) {
@@ -1675,7 +1661,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 @media (max-width: 600px) {
@@ -1756,7 +1741,6 @@ footer {
   border-radius: 4px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 2;
 }
 
 .economie-images-row--2 {
@@ -1895,9 +1879,9 @@ footer {
 
 #nouveaux-projets > ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 #nouveaux-projets li {
@@ -1940,9 +1924,9 @@ footer {
 
 #engagements > ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 #engagements li {
@@ -1961,10 +1945,5 @@ footer {
   #nouveaux-projets > h2,
   #engagements > h2 {
     font-size: 1.8rem;
-  }
-
-  #nouveaux-projets > ul,
-  #engagements > ul {
-    grid-template-columns: 1fr;
   }
 }
