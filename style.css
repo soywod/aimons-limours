@@ -143,11 +143,11 @@ main p {
   }
 }
 
-#video {
+.video {
   margin: 2rem auto;
 }
 
-#video video {
+.video video {
   display: block;
   width: 100%;
 }
